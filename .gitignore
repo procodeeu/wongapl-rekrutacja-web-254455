@@ -13,3 +13,6 @@ pnpm-debug.log*
 .DS_Store
 
 .env.local
+
+tina/__generated__/
+tina/.tina-lock
