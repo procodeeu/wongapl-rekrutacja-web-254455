@@ -1,0 +1,4021 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="985.2749"
+   height="2473.5127"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   sodipodi:docname="blu-background.svg"
+   inkscape:export-filename="/Users/user1/Desktop/Procode/FINAL1-1000back.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5325">
+      <stop
+         style="stop-color:#560058;stop-opacity:1;"
+         offset="0"
+         id="stop5327" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5329" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7024-6"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1-45"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7024-2"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1-4"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6928-5"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-3"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6928-4"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930"
+       xlink:href="#linearGradient6874"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient6912"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient6904"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient6896"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient6880-4"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient6880"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4289">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4291"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4285">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4287"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4281">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4283"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4277">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4279"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4273">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4275"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4269">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4271"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4265">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4267"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4261">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4263"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4257">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4259"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4253">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4255"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4249">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4251"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4245">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4247"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4241">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4243"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4237">
+      <rect
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         id="rect4239"
+         width="1000"
+         height="1000"
+         x="-1578.4486"
+         y="835.23035" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient6856">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.51079136;"
+         offset="0"
+         id="stop6858" />
+      <stop
+         id="stop6872"
+         offset="0.56060606"
+         style="stop-color:#00ffc2;stop-opacity:0.49640289;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.51079136;"
+         offset="1"
+         id="stop6860" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6874">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop6876" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop6878" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient3392"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874"
+       id="radialGradient3400"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4259">
+      <rect
+         style="opacity:0.360294;fill:#c2ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4261"
+         width="1073.186"
+         height="551.67798"
+         x="-1487.6494"
+         y="648.89087"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4259-7">
+      <rect
+         style="opacity:0.360294;fill:#c2ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4261-6"
+         width="1073.186"
+         height="551.67798"
+         x="-1487.6494"
+         y="648.89087"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3400-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient6874-4">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop6876-2" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop6878-3" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3394-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4396">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4398" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4400" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3396-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4403">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4405" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4407" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3398-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4412" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4414" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3392-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4417">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4419" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4421" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3386-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4424">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4426" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4428" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3388-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4431">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4433" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4435" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient3390-7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <linearGradient
+       id="linearGradient4438">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4440" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4442" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1-45-6"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4445">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4447" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4449" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6924-7-2-1"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4452">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4454" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4456" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6926-1-6-8"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4459">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4461" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4463" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7200-3-9"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4466">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4468" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4470" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1-4-2"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4473">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4475" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4477" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6924-7-7-7"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4480">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4482" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4484" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6926-1-1-9"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4487">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4489" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4491" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7200-5"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4494">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4496" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4498" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-1-43"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4501">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4503" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4505" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6924-7-1"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4508">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4510" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4512" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6926-1-2"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4515">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4517" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4519" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7024-3"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4522">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4524" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4526" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6930-34"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4529">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4531" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4533" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6924-1"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4536">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4538" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4540" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6926-13"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4543">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4545" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4547" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient6928-8"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4550">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4552" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4554" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient6880-7"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4557">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4559" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4561" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4719-4"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4564">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4566" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4568" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4721-2"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4571">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4573" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4575" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4723-7"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4578">
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:1;"
+         offset="0"
+         id="stop4580" />
+      <stop
+         style="stop-color:#00ffc2;stop-opacity:0;"
+         offset="1"
+         id="stop4582" />
+    </linearGradient>
+    <radialGradient
+       r="232.23279"
+       fy="1066.5295"
+       fx="512.38599"
+       cy="1066.5295"
+       cx="512.38599"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4613"
+       xlink:href="#linearGradient6874-4"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient4955"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient4957"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient4959"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient4961"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6874-4"
+       id="radialGradient4977"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01784469,-0.95669216,2.3319716,0.04349741,-1602.645,849.22216)"
+       cx="512.38599"
+       cy="1066.5295"
+       fx="512.38599"
+       fy="1066.5295"
+       r="232.23279" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9406">
+      <path
+         style="fill:#000015;fill-opacity:1;stroke:none"
+         d="m -3975.6808,1421.8725 112.5773,-658.80129 h 1461.7301 140.6344 390.7028 l -112.5774,658.80129 h -279.8426 -140.6343 z"
+         id="path9408"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.41957708"
+     inkscape:cx="761.67518"
+     inkscape:cy="1259.1749"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer8"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="podback"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Fotosy"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Back svg"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="background stripes"
+     style="display:none"
+     transform="translate(128.34922,-337.21256)">
+    <g
+       transform="matrix(1.0721024,0,0,1.0721024,-1011.1253,358.66354)"
+       id="g6851"
+       style="opacity:0.135;fill:url(#radialGradient6880-7);fill-opacity:1">
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8"
+         d="m 747.14286,302.20949 -1e-4,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient4719-4);fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8-0"
+         d="m 747.14286,375.21932 -1e-4,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient4721-2);fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8-1"
+         d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient4613);fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       transform="matrix(0.79486713,0,0,0.79486713,-803.99078,779.22763)"
+       id="g6851-7"
+       style="opacity:0.168;fill:url(#radialGradient6930-34);fill-opacity:1">
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8-4"
+         d="m 747.14286,302.20949 -1e-4,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient6924-1);fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8-0-1"
+         d="m 747.14286,375.21932 -1e-4,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient6926-13);fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3064-4-3-8-8-1-2"
+         d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         style="fill:url(#radialGradient6928-8);fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       style="opacity:0.135;fill:url(#radialGradient3392-6);fill-opacity:1"
+       id="g3370"
+       transform="matrix(1.0721024,0,0,1.0721024,-1011.1253,1708.6635)">
+      <path
+         style="fill:url(#radialGradient3386-8);fill-opacity:1;stroke:none"
+         d="m 747.14286,302.20949 -1e-4,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3372"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient3388-5);fill-opacity:1;stroke:none"
+         d="m 747.14286,375.21932 -1e-4,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3374"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient3390-7);fill-opacity:1;stroke:none"
+         d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3376"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       style="opacity:0.645"
+       id="g5194"
+       transform="matrix(0.93749997,0,0,0.93749997,267.21099,-296.38719)">
+      <g
+         style="opacity:0.305147;fill:url(#radialGradient6930-1-45-6);fill-opacity:1"
+         id="g6851-7-7-3"
+         transform="matrix(-1.1435759,0,0,-1.1435759,-513.64789,2768.06)">
+        <path
+           style="fill:url(#radialGradient6924-7-2-1);fill-opacity:1;stroke:none"
+           d="m 743.23948,302.20949 v 50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-4-6-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient6926-1-6-8);fill-opacity:1;stroke:none"
+           d="m 743.23948,375.21932 v 50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-0-1-8-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient7200-3-9);fill-opacity:1;stroke:none"
+           d="m 743.23948,448.07646 v 50.63159 h -444.4034 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-1-2-2-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <g
+         style="opacity:0.305147;fill:url(#radialGradient6930-1-4-2);fill-opacity:1"
+         id="g6851-7-7-7"
+         transform="matrix(-1.1435759,0,0,-1.1435759,-557.54499,2520.8503)">
+        <path
+           style="fill:url(#radialGradient6924-7-7-7);fill-opacity:1;stroke:none"
+           d="m 704.85376,302.20949 -10e-5,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-4-6-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient6926-1-1-9);fill-opacity:1;stroke:none"
+           d="m 704.85376,375.21932 -10e-5,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-0-1-8-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient7200-5);fill-opacity:1;stroke:none"
+           d="m 704.85376,448.07646 -10e-5,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-1-2-2-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <g
+         style="opacity:0.305147;fill:url(#radialGradient6930-1-43);fill-opacity:1"
+         id="g6851-7-7"
+         transform="matrix(-1.1435759,0,0,-1.1435759,-511.33759,2270.6275)">
+        <path
+           style="fill:url(#radialGradient6924-7-1);fill-opacity:1;stroke:none"
+           d="m 745.25972,302.20949 v 50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-4-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient6926-1-2);fill-opacity:1;stroke:none"
+           d="m 745.25972,375.21932 v 50.63159 h -213.5665 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-0-1-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:url(#radialGradient7024-3);fill-opacity:1;stroke:none"
+           d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+           id="path3064-4-3-8-8-1-2-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+    </g>
+    <g
+       style="opacity:0.168;fill:url(#radialGradient3400-1);fill-opacity:1"
+       id="g3378"
+       transform="matrix(0.79486713,0,0,0.79486713,-803.99078,2063.2275)">
+      <path
+         style="fill:url(#radialGradient3394-2);fill-opacity:1;stroke:none"
+         d="m 747.14286,302.20949 -1e-4,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3380"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient3396-2);fill-opacity:1;stroke:none"
+         d="m 747.14286,375.21932 -1e-4,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3382"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient3398-1);fill-opacity:1;stroke:none"
+         d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path3384"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       style="opacity:0.168;fill:url(#radialGradient4961);fill-opacity:1"
+       id="g4947"
+       transform="matrix(0.79486713,0,0,0.79486713,-803.99078,1619.2276)">
+      <path
+         style="fill:url(#radialGradient4955);fill-opacity:1;stroke:none"
+         d="m 747.14286,302.20949 -1e-4,50.63159 H 433.42297 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path4949"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient4957);fill-opacity:1;stroke:none"
+         d="m 747.14286,375.21932 -1e-4,50.63159 H 531.69322 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path4951"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:url(#radialGradient4959);fill-opacity:1;stroke:none"
+         d="m 747.14286,448.07646 -1e-4,50.63159 H 298.83608 l -16.1588,-26.9669 17.06059,-23.84809 z"
+         id="path4953"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Textbox"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="text#1"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Grafy"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Titlebox"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="teksty"
+     style="display:inline"
+     transform="translate(128.34922,-337.21256)">
+    <path
+       id="rect6440"
+       style="opacity:1;stroke-width:2.04837"
+       d="M -128.34922,337.21256 H 856.92566 V 2810.7253 h -985.27488 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="Logo"
+     transform="translate(128.34922,-337.21256)">
+    <g
+       id="g7954"
+       transform="matrix(0,-1.3393376,-1.5174098,0,2014.6746,-2361.5437)"
+       clip-path="url(#clipPath9406)">
+      <g
+         transform="translate(-3718.5,716.29075)"
+         id="g7300"
+         style="display:block">
+        <path
+           id="polygon5990"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 90,20 H -57 l 20,1 z" />
+        <path
+           id="polygon5992"
+           style="fill:#181844;stroke:#181844;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 183,915 -349,-1 -104,1 z" />
+        <path
+           id="polygon5994"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 700,23 90,20 576,43 Z" />
+        <path
+           id="polygon5996"
+           style="fill:#14143a;stroke:#14143a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 798,915 -337,-9 -144,9 z" />
+        <path
+           id="polygon5998"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 798,20 H 90 l 610,3 z" />
+        <path
+           id="polygon6000"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1102,915 -222,-6 -82,6 z" />
+        <path
+           id="polygon6002"
+           style="fill:#22225f;stroke:#22225f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1393,22 -297,-2 231,11 z" />
+        <path
+           id="polygon6004"
+           style="fill:#141439;stroke:#141439;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1450,20 h -354 l 297,2 z" />
+        <path
+           id="polygon6006"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1461,915 -220,-10 -139,10 z" />
+        <path
+           id="polygon6008"
+           style="fill:#121234;stroke:#121234;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1669,20 h -219 l 141,15 z" />
+        <path
+           id="polygon6010"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1812,361 -24,13 5,82 z" />
+        <path
+           id="polygon6012"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1846,278 -65,39 31,44 z" />
+        <path
+           id="polygon6014"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1847,162 -90,44 89,72 z" />
+        <path
+           id="polygon6016"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1863,719 -23,-85 -23,118 z" />
+        <path
+           id="polygon6018"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,451 -55,-90 -19,95 z" />
+        <path
+           id="polygon6020"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,69 -94,48 74,45 z" />
+        <path
+           id="polygon6022"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,69 -50,-18 -44,66 z" />
+        <path
+           id="polygon6024"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,748 -50,4 22,61 z" />
+        <path
+           id="polygon6026"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,748 -28,65 5,37 z" />
+        <path
+           id="polygon6028"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,889 -23,-39 -103,65 z" />
+        <path
+           id="polygon6030"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1867,889 V 748 l -23,102 z" />
+        <path
+           id="polygon6032"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,740 -50,12 50,-4 z" />
+        <path
+           id="polygon6034"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,740 -4,-21 -46,33 z" />
+        <path
+           id="polygon6036"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,342 -55,19 55,90 z" />
+        <path
+           id="polygon6038"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,342 -21,-64 -34,83 z" />
+        <path
+           id="polygon6040"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1867,342 V 69 l -20,93 z" />
+        <path
+           id="polygon6042"
+           style="fill:#111133;stroke:#111133;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,342 -20,-180 -1,116 z" />
+        <path
+           id="polygon6044"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,533 -83,48 56,53 z" />
+        <path
+           id="polygon6046"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,533 -90,6 7,42 z" />
+        <path
+           id="polygon6048"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,533 -74,-77 -16,83 z" />
+        <path
+           id="polygon6050"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,533 -27,101 23,85 z" />
+        <path
+           id="polygon6052"
+           style="fill:#020209;stroke:#020209;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,533 -4,186 4,21 z" />
+        <path
+           id="polygon6054"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,915 v -26 l -126,26 z" />
+        <path
+           id="polygon6056"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,468 -74,-12 74,77 z" />
+        <path
+           id="polygon6058"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,468 v -17 l -74,5 z" />
+        <path
+           id="polygon6060"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,20 -117,36 67,-5 z" />
+        <path
+           id="polygon6062"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,20 h -198 l 81,36 z" />
+        <path
+           id="polygon6064"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1867,20 -50,31 50,18 z" />
+        <path
+           id="polygon6066"
+           style="fill:#252567;stroke:#252567;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1327,31 1096,20 1257,37 Z" />
+        <path
+           id="polygon6068"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1840,634 -135,62 112,56 z" />
+        <path
+           id="polygon6070"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1844,850 -68,-22 -37,54 z" />
+        <path
+           id="polygon6072"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1844,850 -105,32 2,33 z" />
+        <path
+           id="polygon6074"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1844,850 -5,-37 -63,15 z" />
+        <path
+           id="polygon6076"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1846,278 -89,-72 24,111 z" />
+        <path
+           id="polygon6078"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1847,162 -74,-45 -16,89 z" />
+        <path
+           id="polygon6080"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1839,813 -22,-61 -41,76 z" />
+        <path
+           id="polygon6082"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1840,634 -56,-53 -79,115 z" />
+        <path
+           id="polygon6084"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1781,317 -24,-111 -47,80 z" />
+        <path
+           id="polygon6086"
+           style="fill:#0c0d25;stroke:#0c0d25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1817,51 -67,5 23,61 z" />
+        <path
+           id="polygon6088"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1817,752 -112,-56 71,132 z" />
+        <path
+           id="polygon6090"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1784,581 -94,14 15,101 z" />
+        <path
+           id="polygon6092"
+           style="fill:#101030;stroke:#101030;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1812,361 -31,-44 7,57 z" />
+        <path
+           id="polygon6094"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1776,828 -71,-132 -2,158 z" />
+        <path
+           id="polygon6096"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1781,317 -71,-31 18,31 z" />
+        <path
+           id="polygon6098"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1788,374 -7,-57 -61,44 z" />
+        <path
+           id="polygon6100"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1793,456 -59,88 43,-5 z" />
+        <path
+           id="polygon6102"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1793,456 h -108 l 49,88 z" />
+        <path
+           id="polygon6104"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1793,456 -5,-82 -68,-13 z" />
+        <path
+           id="polygon6106"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1793,456 -73,-95 -35,95 z" />
+        <path
+           id="polygon6108"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1720,361 -34,19 -1,76 z" />
+        <path
+           id="polygon6110"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1728,317 -8,10 v 34 z" />
+        <path
+           id="polygon6112"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1781,317 h -53 l -8,44 z" />
+        <path
+           id="polygon6114"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1784,581 -7,-42 -43,5 z" />
+        <path
+           id="polygon6116"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1773,117 -95,71 79,18 z" />
+        <path
+           id="polygon6118"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1784,581 -50,-37 -44,51 z" />
+        <path
+           id="polygon6120"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1705,696 -15,-101 -13,13 z" />
+        <path
+           id="polygon6122"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1776,828 -54,44 17,10 z" />
+        <path
+           id="polygon6124"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1705,696 -74,42 72,116 z" />
+        <path
+           id="polygon6126"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1776,828 -73,26 19,18 z" />
+        <path
+           id="polygon6128"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1773,117 -23,-61 -96,21 z" />
+        <path
+           id="polygon6130"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1773,117 -119,-40 24,111 z" />
+        <path
+           id="polygon6132"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1678,188 -24,-111 -7,6 z" />
+        <path
+           id="polygon6134"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1757,206 -74,10 27,70 z" />
+        <path
+           id="polygon6136"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1757,206 -79,-18 5,28 z" />
+        <path
+           id="polygon6138"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1591,35 -141,-15 63,19 z" />
+        <path
+           id="polygon6140"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1750,56 -81,-36 -15,57 z" />
+        <path
+           id="polygon6142"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1741,915 -2,-33 -17,-10 z" />
+        <path
+           id="polygon6144"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1741,915 -19,-43 -158,43 z" />
+        <path
+           id="polygon6146"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1722,872 -19,-18 -139,61 z" />
+        <path
+           id="polygon6148"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1734,544 -49,-88 5,139 z" />
+        <path
+           id="polygon6150"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1690,595 -5,-139 -104,27 z" />
+        <path
+           id="polygon6152"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1728,317 -18,-31 10,41 z" />
+        <path
+           id="polygon6154"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1720,361 v -34 l -34,53 z" />
+        <path
+           id="polygon6156"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1703,854 -125,2 -14,59 z" />
+        <path
+           id="polygon6158"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1710,286 -27,-70 -46,37 z" />
+        <path
+           id="polygon6160"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1720,327 -10,-41 -24,94 z" />
+        <path
+           id="polygon6162"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1705,696 -75,31 1,11 z" />
+        <path
+           id="polygon6164"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1690,595 -109,-112 -23,74 z" />
+        <path
+           id="polygon6166"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1703,854 -72,-116 -53,118 z" />
+        <path
+           id="polygon6168"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1705,696 -28,-88 -63,75 z" />
+        <path
+           id="polygon6170"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1710,286 -73,-33 49,127 z" />
+        <path
+           id="polygon6172"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1678,188 -31,-105 -55,56 z" />
+        <path
+           id="polygon6174"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1686,380 -49,-127 -79,58 z" />
+        <path
+           id="polygon6176"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1690,595 -132,-38 119,51 z" />
+        <path
+           id="polygon6178"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1705,696 -91,-13 16,44 z" />
+        <path
+           id="polygon6180"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1686,380 -128,-69 16,89 z" />
+        <path
+           id="polygon6182"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1686,380 -112,20 111,56 z" />
+        <path
+           id="polygon6184"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1677,608 -119,-51 19,63 z" />
+        <path
+           id="polygon6186"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1685,456 -111,-56 v 66 z" />
+        <path
+           id="polygon6188"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1685,456 -111,10 7,17 z" />
+        <path
+           id="polygon6190"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1683,216 -5,-28 -41,65 z" />
+        <path
+           id="polygon6192"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1677,608 -100,12 37,63 z" />
+        <path
+           id="polygon6194"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1678,188 -86,-49 45,114 z" />
+        <path
+           id="polygon6196"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1614,683 -37,-63 3,39 z" />
+        <path
+           id="polygon6198"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1669,20 -78,15 63,42 z" />
+        <path
+           id="polygon6200"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1637,253 -45,-114 -45,108 z" />
+        <path
+           id="polygon6202"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1654,77 -63,-42 56,48 z" />
+        <path
+           id="polygon6204"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1647,83 -83,15 28,41 z" />
+        <path
+           id="polygon6206"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1647,83 -56,-48 -27,63 z" />
+        <path
+           id="polygon6208"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1631,738 -120,96 67,22 z" />
+        <path
+           id="polygon6210"
+           style="fill:#111130;stroke:#111130;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1637,253 -90,-6 11,64 z" />
+        <path
+           id="polygon6212"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1631,738 -1,-11 -117,-48 z" />
+        <path
+           id="polygon6214"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1631,738 -118,-59 -2,155 z" />
+        <path
+           id="polygon6216"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1630,727 -16,-44 -101,-4 z" />
+        <path
+           id="polygon6218"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1614,683 -34,-24 -67,20 z" />
+        <path
+           id="polygon6220"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1578,856 -40,15 26,44 z" />
+        <path
+           id="polygon6222"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1591,35 -78,4 51,59 z" />
+        <path
+           id="polygon6224"
+           style="fill:#16163e;stroke:#16163e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1592,139 -28,-41 -87,77 z" />
+        <path
+           id="polygon6226"
+           style="fill:#111133;stroke:#111133;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1592,139 -115,36 70,72 z" />
+        <path
+           id="polygon6228"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1564,915 -26,-44 -3,5 z" />
+        <path
+           id="polygon6230"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1574,400 -16,-89 -86,82 z" />
+        <path
+           id="polygon6232"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1574,466 v -66 l -102,-7 z" />
+        <path
+           id="polygon6234"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1578,856 -67,-22 27,37 z" />
+        <path
+           id="polygon6236"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1580,659 -3,-39 -69,27 z" />
+        <path
+           id="polygon6238"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1581,483 -95,78 72,-4 z" />
+        <path
+           id="polygon6240"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1581,483 -7,-17 -122,52 z" />
+        <path
+           id="polygon6242"
+           style="fill:#111130;stroke:#111130;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1581,483 -129,35 34,43 z" />
+        <path
+           id="polygon6244"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1577,620 -19,-63 -50,90 z" />
+        <path
+           id="polygon6246"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1580,659 -72,-12 5,32 z" />
+        <path
+           id="polygon6248"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1558,557 -72,4 22,86 z" />
+        <path
+           id="polygon6250"
+           style="fill:#131336;stroke:#131336;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1564,98 -78,-15 -9,92 z" />
+        <path
+           id="polygon6252"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1574,466 -102,-73 -20,125 z" />
+        <path
+           id="polygon6254"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1511,834 -103,-46 23,32 z" />
+        <path
+           id="polygon6256"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1513,679 -105,109 103,46 z" />
+        <path
+           id="polygon6258"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1513,679 -97,31 -8,78 z" />
+        <path
+           id="polygon6260"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1564,915 -29,-39 -31,39 z" />
+        <path
+           id="polygon6262"
+           style="fill:#141439;stroke:#141439;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1564,98 -51,-59 -27,44 z" />
+        <path
+           id="polygon6264"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1558,311 -123,15 37,67 z" />
+        <path
+           id="polygon6266"
+           style="fill:#121233;stroke:#121233;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1558,311 -11,-64 -92,17 z" />
+        <path
+           id="polygon6268"
+           style="fill:#121234;stroke:#121234;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1558,311 -103,-47 -20,62 z" />
+        <path
+           id="polygon6270"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1461,915 -110,-37 -110,27 z" />
+        <path
+           id="polygon6272"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1472,393 -37,21 17,104 z" />
+        <path
+           id="polygon6274"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1547,247 -70,-72 -22,89 z" />
+        <path
+           id="polygon6276"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1513,679 -32,-11 -65,42 z" />
+        <path
+           id="polygon6278"
+           style="fill:#03030d;stroke:#03030d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1538,871 -27,-37 24,42 z" />
+        <path
+           id="polygon6280"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1535,876 -24,-42 -33,64 z" />
+        <path
+           id="polygon6282"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1535,876 -57,22 26,17 z" />
+        <path
+           id="polygon6284"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1452,518 -17,-104 -4,2 z" />
+        <path
+           id="polygon6286"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1508,647 -22,-86 -36,6 z" />
+        <path
+           id="polygon6288"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1508,647 -58,-80 31,101 z" />
+        <path
+           id="polygon6290"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1511,834 -73,36 40,28 z" />
+        <path
+           id="polygon6292"
+           style="fill:#181844;stroke:#181844;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1511,834 -80,-14 5,8 z" />
+        <path
+           id="polygon6294"
+           style="fill:#191948;stroke:#191948;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1513,39 -63,-19 36,63 z" />
+        <path
+           id="polygon6296"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1513,679 -5,-32 -27,21 z" />
+        <path
+           id="polygon6298"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1511,834 -75,-6 2,42 z" />
+        <path
+           id="polygon6300"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1472,393 -37,-67 -7,34 z" />
+        <path
+           id="polygon6302"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1481,668 -31,-101 -45,69 z" />
+        <path
+           id="polygon6304"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1472,393 -44,-33 9,20 z" />
+        <path
+           id="polygon6306"
+           style="fill:#1a1a4a;stroke:#1a1a4a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1486,83 -36,-63 -5,4 z" />
+        <path
+           id="polygon6308"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1504,915 -26,-17 -17,17 z" />
+        <path
+           id="polygon6310"
+           style="fill:#22225f;stroke:#22225f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1257,37 -161,-17 19,7 z" />
+        <path
+           id="polygon6312"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1452,518 -21,-102 20,103 z" />
+        <path
+           id="polygon6314"
+           style="fill:#181845;stroke:#181845;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1477,175 1428,36 1330,164 Z" />
+        <path
+           id="polygon6316"
+           style="fill:#191947;stroke:#191947;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1477,175 -147,-11 60,50 z" />
+        <path
+           id="polygon6318"
+           style="fill:#121236;stroke:#121236;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1477,175 -87,39 65,50 z" />
+        <path
+           id="polygon6320"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1486,561 -34,-43 -2,49 z" />
+        <path
+           id="polygon6322"
+           style="fill:#191946;stroke:#191946;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1486,83 -58,-47 49,139 z" />
+        <path
+           id="polygon6324"
+           style="fill:#16163f;stroke:#16163f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1486,83 -41,-59 -17,12 z" />
+        <path
+           id="polygon6326"
+           style="fill:#1b1b4b;stroke:#1b1b4b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1428,36 -109,53 11,75 z" />
+        <path
+           id="polygon6328"
+           style="fill:#020209;stroke:#020209;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1481,668 -77,30 12,12 z" />
+        <path
+           id="polygon6330"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1481,668 -76,-32 -1,62 z" />
+        <path
+           id="polygon6332"
+           style="fill:#15153c;stroke:#15153c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1452,518 -1,1 -1,48 z" />
+        <path
+           id="polygon6334"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1478,898 -40,-28 23,45 z" />
+        <path
+           id="polygon6336"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1451,519 -20,-103 -59,85 z" />
+        <path
+           id="polygon6338"
+           style="fill:#141439;stroke:#141439;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1472,393 -35,-13 -2,34 z" />
+        <path
+           id="polygon6340"
+           style="fill:#14143b;stroke:#14143b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1450,20 -57,2 52,2 z" />
+        <path
+           id="polygon6342"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1450,567 -25,-6 -20,75 z" />
+        <path
+           id="polygon6344"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1451,519 -26,42 25,6 z" />
+        <path
+           id="polygon6346"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1461,915 -23,-45 -87,8 z" />
+        <path
+           id="polygon6348"
+           style="fill:#14143a;stroke:#14143a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1455,264 -65,-50 45,112 z" />
+        <path
+           id="polygon6350"
+           style="fill:#1d1d52;stroke:#1d1d52;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1428,36 -35,-14 -74,67 z" />
+        <path
+           id="polygon6352"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1451,519 -53,25 27,17 z" />
+        <path
+           id="polygon6354"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1451,519 -79,-18 26,43 z" />
+        <path
+           id="polygon6356"
+           style="fill:#1a1a4b;stroke:#1a1a4b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1445,24 -52,-2 35,14 z" />
+        <path
+           id="polygon6358"
+           style="fill:#131338;stroke:#131338;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1435,326 -45,-112 -83,109 z" />
+        <path
+           id="polygon6360"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1408,788 -26,-78 6,78 z" />
+        <path
+           id="polygon6362"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1416,710 h -34 l 26,78 z" />
+        <path
+           id="polygon6364"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1436,828 -5,-8 -48,-16 z" />
+        <path
+           id="polygon6366"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1436,828 -53,-24 -30,43 z" />
+        <path
+           id="polygon6368"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1437,380 -6,36 4,-2 z" />
+        <path
+           id="polygon6370"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1437,380 -9,-20 3,56 z" />
+        <path
+           id="polygon6372"
+           style="fill:#03030b;stroke:#03030b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1438,870 -85,-23 -2,6 z" />
+        <path
+           id="polygon6374"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1438,870 -87,-17 v 25 z" />
+        <path
+           id="polygon6376"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1438,870 -2,-42 -83,19 z" />
+        <path
+           id="polygon6378"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1425,561 -27,-17 7,92 z" />
+        <path
+           id="polygon6380"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1435,326 -128,-3 121,37 z" />
+        <path
+           id="polygon6382"
+           style="fill:#1d1d53;stroke:#1d1d53;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1096,20 H 798 l 174,23 z" />
+        <path
+           id="polygon6384"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1431,416 -3,-56 -146,1 z" />
+        <path
+           id="polygon6386"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1431,820 -23,-32 -25,16 z" />
+        <path
+           id="polygon6388"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1431,416 -149,-55 90,140 z" />
+        <path
+           id="polygon6390"
+           style="fill:#141439;stroke:#141439;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1372,501 -90,-140 -11,14 z" />
+        <path
+           id="polygon6392"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1416,710 -19,-5 -15,5 z" />
+        <path
+           id="polygon6394"
+           style="fill:#141438;stroke:#141438;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1428,360 -121,-37 -25,38 z" />
+        <path
+           id="polygon6396"
+           style="fill:#1b1b4c;stroke:#1b1b4c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1393,22 -66,9 -8,58 z" />
+        <path
+           id="polygon6398"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1405,636 -7,-92 -77,6 z" />
+        <path
+           id="polygon6400"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1405,636 -23,74 22,-12 z" />
+        <path
+           id="polygon6402"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1416,710 -12,-12 -7,7 z" />
+        <path
+           id="polygon6404"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1404,698 -22,12 15,-5 z" />
+        <path
+           id="polygon6406"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1405,636 -87,46 64,28 z" />
+        <path
+           id="polygon6408"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1408,788 h -20 l -5,16 z" />
+        <path
+           id="polygon6410"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1388,788 -6,-78 -66,44 z" />
+        <path
+           id="polygon6412"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1398,544 -26,-43 -18,17 z" />
+        <path
+           id="polygon6414"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1405,636 -84,-86 -3,132 z" />
+        <path
+           id="polygon6416"
+           style="fill:#121234;stroke:#121234;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1398,544 -44,-26 -33,32 z" />
+        <path
+           id="polygon6418"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1372,501 -101,-126 -36,69 z" />
+        <path
+           id="polygon6420"
+           style="fill:#171742;stroke:#171742;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1390,214 -60,-50 -23,159 z" />
+        <path
+           id="polygon6422"
+           style="fill:#181843;stroke:#181843;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1330,164 -101,73 78,86 z" />
+        <path
+           id="polygon6424"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1372,501 -137,-57 119,74 z" />
+        <path
+           id="polygon6426"
+           style="fill:#04040e;stroke:#04040e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1388,788 -72,-34 67,50 z" />
+        <path
+           id="polygon6428"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1383,804 -97,11 67,32 z" />
+        <path
+           id="polygon6430"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1383,804 -67,-50 -30,61 z" />
+        <path
+           id="polygon6432"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1382,710 -64,-28 -2,72 z" />
+        <path
+           id="polygon6434"
+           style="fill:#191947;stroke:#191947;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1330,164 -11,-75 -27,20 z" />
+        <path
+           id="polygon6436"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1351,878 -73,-14 -37,41 z" />
+        <path
+           id="polygon6438"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1353,847 -67,-32 65,38 z" />
+        <path
+           id="polygon6440"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1354,518 -119,-74 86,106 z" />
+        <path
+           id="polygon6442"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1351,853 -65,-38 -8,35 z" />
+        <path
+           id="polygon6444"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1351,853 -73,11 73,14 z" />
+        <path
+           id="polygon6446"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1351,853 -73,-3 v 14 z" />
+        <path
+           id="polygon6448"
+           style="fill:#03030b;stroke:#03030b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1102,915 994,895 880,909 Z" />
+        <path
+           id="polygon6450"
+           style="fill:#15153b;stroke:#15153b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1307,323 -17,5 -8,33 z" />
+        <path
+           id="polygon6452"
+           style="fill:#191946;stroke:#191946;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1307,323 -78,-86 61,91 z" />
+        <path
+           id="polygon6454"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1321,550 -123,-21 120,153 z" />
+        <path
+           id="polygon6456"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1321,550 -86,-106 -37,85 z" />
+        <path
+           id="polygon6458"
+           style="fill:#20205a;stroke:#20205a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1327,31 -70,6 62,52 z" />
+        <path
+           id="polygon6460"
+           style="fill:#1b1b4e;stroke:#1b1b4e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1330,164 -38,-55 -69,123 z" />
+        <path
+           id="polygon6462"
+           style="fill:#20205b;stroke:#20205b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1330,164 -107,68 6,5 z" />
+        <path
+           id="polygon6464"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1318,682 -79,99 77,-27 z" />
+        <path
+           id="polygon6466"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1316,754 -77,27 47,34 z" />
+        <path
+           id="polygon6468"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1318,682 1198,529 1087,681 Z" />
+        <path
+           id="polygon6470"
+           style="fill:#1f1f57;stroke:#1f1f57;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1319,89 -62,-52 35,72 z" />
+        <path
+           id="polygon6472"
+           style="fill:#21215c;stroke:#21215c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1292,109 -35,-72 -16,46 z" />
+        <path
+           id="polygon6474"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1318,682 -231,-1 152,100 z" />
+        <path
+           id="polygon6476"
+           style="fill:#191947;stroke:#191947;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 972,43 798,20 851,36 Z" />
+        <path
+           id="polygon6478"
+           style="fill:#1f1f56;stroke:#1f1f56;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1292,109 -51,-26 -18,149 z" />
+        <path
+           id="polygon6480"
+           style="fill:#16163f;stroke:#16163f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1290,328 -61,-91 -64,124 z" />
+        <path
+           id="polygon6482"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1290,328 -19,47 11,-14 z" />
+        <path
+           id="polygon6484"
+           style="fill:#111133;stroke:#111133;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1290,328 -125,33 106,14 z" />
+        <path
+           id="polygon6486"
+           style="fill:#0c0d25;stroke:#0c0d25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1286,815 -47,-34 39,69 z" />
+        <path
+           id="polygon6488"
+           style="fill:#1f1f58;stroke:#1f1f58;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1241,83 -121,76 103,73 z" />
+        <path
+           id="polygon6490"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1278,850 -39,-69 -46,38 z" />
+        <path
+           id="polygon6492"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1271,375 -74,43 38,26 z" />
+        <path
+           id="polygon6494"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1278,850 -85,-31 48,86 z" />
+        <path
+           id="polygon6496"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1278,864 v -14 l -37,55 z" />
+        <path
+           id="polygon6498"
+           style="fill:#111130;stroke:#111130;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1271,375 -106,-14 32,57 z" />
+        <path
+           id="polygon6500"
+           style="fill:#252568;stroke:#252568;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1257,37 1115,27 1241,83 Z" />
+        <path
+           id="polygon6502"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1198,529 -137,61 26,91 z" />
+        <path
+           id="polygon6504"
+           style="fill:#161640;stroke:#161640;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1223,232 -129,41 71,88 z" />
+        <path
+           id="polygon6506"
+           style="fill:#16163e;stroke:#16163e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1229,237 -6,-5 -58,129 z" />
+        <path
+           id="polygon6508"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1235,444 -98,52 61,33 z" />
+        <path
+           id="polygon6510"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1235,444 -38,-26 -60,78 z" />
+        <path
+           id="polygon6512"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1239,781 1087,681 1193,819 Z" />
+        <path
+           id="polygon6514"
+           style="fill:#21215d;stroke:#21215d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1241,83 -143,30 22,46 z" />
+        <path
+           id="polygon6516"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1241,905 -48,-86 -91,96 z" />
+        <path
+           id="polygon6518"
+           style="fill:#242466;stroke:#242466;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1241,83 -126,-56 -17,86 z" />
+        <path
+           id="polygon6520"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1193,819 -106,-138 -27,75 z" />
+        <path
+           id="polygon6522"
+           style="fill:#181844;stroke:#181844;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1102,915 -73,-20 h -35 z" />
+        <path
+           id="polygon6524"
+           style="fill:#1d1d51;stroke:#1d1d51;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1223,232 -103,-73 -30,65 z" />
+        <path
+           id="polygon6526"
+           style="fill:#171743;stroke:#171743;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1223,232 -133,-8 4,49 z" />
+        <path
+           id="polygon6528"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1198,529 -61,-33 -76,94 z" />
+        <path
+           id="polygon6530"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1197,418 -32,-57 -28,135 z" />
+        <path
+           id="polygon6532"
+           style="fill:#121234;stroke:#121234;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1165,361 -128,52 100,83 z" />
+        <path
+           id="polygon6534"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1193,819 -148,-26 57,122 z" />
+        <path
+           id="polygon6536"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1193,819 -133,-63 -15,37 z" />
+        <path
+           id="polygon6538"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 798,915 675,887 461,906 Z" />
+        <path
+           id="polygon6540"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1137,496 -100,-83 12,68 z" />
+        <path
+           id="polygon6542"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1165,361 -96,-18 -32,70 z" />
+        <path
+           id="polygon6544"
+           style="fill:#16163f;stroke:#16163f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1165,361 -71,-88 -25,70 z" />
+        <path
+           id="polygon6546"
+           style="fill:#191947;stroke:#191947;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1094,273 -18,6 -7,64 z" />
+        <path
+           id="polygon6548"
+           style="fill:#08081b;stroke:#08081b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1102,915 -57,-122 -16,102 z" />
+        <path
+           id="polygon6550"
+           style="fill:#232363;stroke:#232363;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1115,27 -39,79 22,7 z" />
+        <path
+           id="polygon6552"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1137,496 -88,-15 12,109 z" />
+        <path
+           id="polygon6554"
+           style="fill:#242465;stroke:#242465;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1115,27 -19,-7 -20,86 z" />
+        <path
+           id="polygon6556"
+           style="fill:#1e1e54;stroke:#1e1e54;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1120,159 -22,-46 -62,39 z" />
+        <path
+           id="polygon6558"
+           style="fill:#1e1e54;stroke:#1e1e54;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1120,159 -84,-7 54,72 z" />
+        <path
+           id="polygon6560"
+           style="fill:#1f1f58;stroke:#1f1f58;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1098,113 -22,-7 -40,46 z" />
+        <path
+           id="polygon6562"
+           style="fill:#1b1b4e;stroke:#1b1b4e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1094,273 -4,-49 -14,55 z" />
+        <path
+           id="polygon6564"
+           style="fill:#222260;stroke:#222260;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1096,20 -124,23 104,63 z" />
+        <path
+           id="polygon6566"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1061,590 -12,-109 -63,34 z" />
+        <path
+           id="polygon6568"
+           style="fill:#171742;stroke:#171742;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1076,279 -46,40 39,24 z" />
+        <path
+           id="polygon6570"
+           style="fill:#20205b;stroke:#20205b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1076,106 972,43 978,97 Z" />
+        <path
+           id="polygon6572"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1087,681 -26,-91 -107,88 z" />
+        <path
+           id="polygon6574"
+           style="fill:#171741;stroke:#171741;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1090,224 -74,43 60,12 z" />
+        <path
+           id="polygon6576"
+           style="fill:#1b1b4d;stroke:#1b1b4d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1090,224 -54,-72 -20,115 z" />
+        <path
+           id="polygon6578"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1045,793 -56,37 40,65 z" />
+        <path
+           id="polygon6580"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1060,756 -106,-78 73,91 z" />
+        <path
+           id="polygon6582"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1087,681 -133,-3 106,78 z" />
+        <path
+           id="polygon6584"
+           style="fill:#15153d;stroke:#15153d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1076,279 -60,-12 14,52 z" />
+        <path
+           id="polygon6586"
+           style="fill:#20205b;stroke:#20205b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1076,106 -98,-9 58,55 z" />
+        <path
+           id="polygon6588"
+           style="fill:#14143a;stroke:#14143a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1069,343 -39,-24 7,94 z" />
+        <path
+           id="polygon6590"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1060,756 -33,13 18,24 z" />
+        <path
+           id="polygon6592"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1061,590 -75,-75 -53,40 z" />
+        <path
+           id="polygon6594"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1061,590 933,555 954,678 Z" />
+        <path
+           id="polygon6596"
+           style="fill:#111130;stroke:#111130;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1049,481 -12,-68 -68,53 z" />
+        <path
+           id="polygon6598"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1029,895 -40,-65 5,65 z" />
+        <path
+           id="polygon6600"
+           style="fill:#181844;stroke:#181844;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1036,152 -134,88 114,27 z" />
+        <path
+           id="polygon6602"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1049,481 -80,-15 17,49 z" />
+        <path
+           id="polygon6604"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1027,769 -73,-91 -6,86 z" />
+        <path
+           id="polygon6606"
+           style="fill:#131338;stroke:#131338;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1037,413 -7,-94 -111,-15 z" />
+        <path
+           id="polygon6608"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1045,793 -18,-24 -38,61 z" />
+        <path
+           id="polygon6610"
+           style="fill:#1a1a49;stroke:#1a1a49;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1036,152 978,97 902,240 Z" />
+        <path
+           id="polygon6612"
+           style="fill:#121233;stroke:#121233;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1037,413 -147,19 79,34 z" />
+        <path
+           id="polygon6614"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 1037,413 919,304 890,432 Z" />
+        <path
+           id="polygon6616"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1027,769 -79,-5 41,66 z" />
+        <path
+           id="polygon6618"
+           style="fill:#14143a;stroke:#14143a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1030,319 -14,-52 -97,37 z" />
+        <path
+           id="polygon6620"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 994,895 -47,-17 -67,31 z" />
+        <path
+           id="polygon6622"
+           style="fill:#161640;stroke:#161640;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1016,267 -116,-1 19,38 z" />
+        <path
+           id="polygon6624"
+           style="fill:#191946;stroke:#191946;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 1016,267 -114,-27 -2,26 z" />
+        <path
+           id="polygon6626"
+           style="fill:#1a1a4a;stroke:#1a1a4a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 978,97 -85,-18 9,161 z" />
+        <path
+           id="polygon6628"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 986,515 -17,-49 -6,36 z" />
+        <path
+           id="polygon6630"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 989,830 -41,-66 -34,25 z" />
+        <path
+           id="polygon6632"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 994,895 -5,-65 -42,48 z" />
+        <path
+           id="polygon6634"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 986,515 -23,-13 -30,53 z" />
+        <path
+           id="polygon6636"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 989,830 -75,-41 33,89 z" />
+        <path
+           id="polygon6638"
+           style="fill:#121234;stroke:#121234;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 919,304 -66,54 37,74 z" />
+        <path
+           id="polygon6640"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 954,678 933,555 870,666 Z" />
+        <path
+           id="polygon6642"
+           style="fill:#191947;stroke:#191947;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 972,43 851,36 904,72 Z" />
+        <path
+           id="polygon6644"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 576,43 90,20 145,44 Z" />
+        <path
+           id="polygon6646"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 978,97 904,72 893,79 Z" />
+        <path
+           id="polygon6648"
+           style="fill:#1e1e54;stroke:#1e1e54;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 978,97 972,43 904,72 Z" />
+        <path
+           id="polygon6650"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 947,878 -54,9 -13,22 z" />
+        <path
+           id="polygon6652"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 954,678 -97,47 91,39 z" />
+        <path
+           id="polygon6654"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 969,466 -85,29 79,7 z" />
+        <path
+           id="polygon6656"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 969,466 -79,-34 -6,63 z" />
+        <path
+           id="polygon6658"
+           style="fill:#171742;stroke:#171742;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 902,240 893,79 839,92 Z" />
+        <path
+           id="polygon6660"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 902,240 839,92 845,233 Z" />
+        <path
+           id="polygon6662"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 947,878 -33,-89 -21,98 z" />
+        <path
+           id="polygon6664"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 963,502 -79,-7 49,60 z" />
+        <path
+           id="polygon6666"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 954,678 -84,-12 -13,59 z" />
+        <path
+           id="polygon6668"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 933,555 -79,-13 16,124 z" />
+        <path
+           id="polygon6670"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 948,764 -91,-39 57,64 z" />
+        <path
+           id="polygon6672"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 933,555 -49,-60 -30,47 z" />
+        <path
+           id="polygon6674"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 914,789 798,915 893,887 Z" />
+        <path
+           id="polygon6676"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 914,789 741,762 798,915 Z" />
+        <path
+           id="polygon6678"
+           style="fill:#131338;stroke:#131338;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 919,304 -19,-38 -47,92 z" />
+        <path
+           id="polygon6680"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 914,789 857,725 741,762 Z" />
+        <path
+           id="polygon6682"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 900,266 -105,40 58,52 z" />
+        <path
+           id="polygon6684"
+           style="fill:#1a1a4b;stroke:#1a1a4b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 904,72 851,36 893,79 Z" />
+        <path
+           id="polygon6686"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 900,266 -55,-33 -50,73 z" />
+        <path
+           id="polygon6688"
+           style="fill:#15153d;stroke:#15153d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 902,240 -57,-7 55,33 z" />
+        <path
+           id="polygon6690"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 90,20 -127,1 h 4 z" />
+        <path
+           id="polygon6692"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 890,432 -140,55 134,8 z" />
+        <path
+           id="polygon6694"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 893,887 -95,28 82,-6 z" />
+        <path
+           id="polygon6696"
+           style="fill:#161640;stroke:#161640;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 893,79 851,36 839,92 Z" />
+        <path
+           id="polygon6698"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 890,432 853,358 750,487 Z" />
+        <path
+           id="polygon6700"
+           style="fill:#0e0e28;stroke:#0e0e28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 870,666 854,542 710,552 Z" />
+        <path
+           id="polygon6702"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 884,495 -134,-8 104,55 z" />
+        <path
+           id="polygon6704"
+           style="fill:#131336;stroke:#131336;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 845,233 839,92 702,207 Z" />
+        <path
+           id="polygon6706"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 870,666 741,762 857,725 Z" />
+        <path
+           id="polygon6708"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 870,666 710,552 741,762 Z" />
+        <path
+           id="polygon6710"
+           style="fill:#010107;stroke:#010107;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 183,915 -24,897 -166,914 Z" />
+        <path
+           id="polygon6712"
+           style="fill:#15153c;stroke:#15153c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 851,36 798,20 839,92 Z" />
+        <path
+           id="polygon6714"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 853,358 795,306 682,403 Z" />
+        <path
+           id="polygon6716"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 853,358 -171,45 68,84 z" />
+        <path
+           id="polygon6718"
+           style="fill:#0f0f2e;stroke:#0f0f2e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 854,542 750,487 726,507 Z" />
+        <path
+           id="polygon6720"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 854,542 726,507 710,552 Z" />
+        <path
+           id="polygon6722"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 845,233 -143,-26 93,99 z" />
+        <path
+           id="polygon6724"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 798,915 741,762 682,823 Z" />
+        <path
+           id="polygon6726"
+           style="fill:#15153b;stroke:#15153b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 839,92 798,20 700,23 Z" />
+        <path
+           id="polygon6728"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 839,92 700,23 702,207 Z" />
+        <path
+           id="polygon6730"
+           style="fill:#111132;stroke:#111132;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 795,306 702,207 674,328 Z" />
+        <path
+           id="polygon6732"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 795,306 -121,22 8,75 z" />
+        <path
+           id="polygon6734"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 798,915 -116,-92 -7,64 z" />
+        <path
+           id="polygon6736"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 702,207 700,23 611,120 Z" />
+        <path
+           id="polygon6738"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 741,762 710,552 605,750 Z" />
+        <path
+           id="polygon6740"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 750,487 -47,1 23,19 z" />
+        <path
+           id="polygon6742"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 750,487 -68,-84 21,85 z" />
+        <path
+           id="polygon6744"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 710,552 -184,17 79,181 z" />
+        <path
+           id="polygon6746"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 741,762 -136,-12 77,73 z" />
+        <path
+           id="polygon6748"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 726,507 -23,-19 7,64 z" />
+        <path
+           id="polygon6750"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 700,23 -108,48 19,49 z" />
+        <path
+           id="polygon6752"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 702,207 -147,72 119,49 z" />
+        <path
+           id="polygon6754"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 703,488 -21,-85 -96,86 z" />
+        <path
+           id="polygon6756"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 710,552 -7,-64 -117,1 z" />
+        <path
+           id="polygon6758"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 710,552 586,489 526,569 Z" />
+        <path
+           id="polygon6760"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 183,915 15,896 -24,897 Z" />
+        <path
+           id="polygon6762"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 572,168 -22,27 5,84 z" />
+        <path
+           id="polygon6764"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 576,43 -431,1 261,72 z" />
+        <path
+           id="polygon6766"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 605,750 526,569 497,621 Z" />
+        <path
+           id="polygon6768"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 682,823 -77,-73 23,77 z" />
+        <path
+           id="polygon6770"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 702,207 -91,-87 -39,48 z" />
+        <path
+           id="polygon6772"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 702,207 572,168 555,279 Z" />
+        <path
+           id="polygon6774"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 700,23 576,43 592,71 Z" />
+        <path
+           id="polygon6776"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 682,403 674,328 553,311 Z" />
+        <path
+           id="polygon6778"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 682,823 -54,4 47,60 z" />
+        <path
+           id="polygon6780"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 682,403 553,311 586,489 Z" />
+        <path
+           id="polygon6782"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 674,328 -119,-49 -2,32 z" />
+        <path
+           id="polygon6784"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 675,887 628,827 461,906 Z" />
+        <path
+           id="polygon6786"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 586,489 553,311 459,382 Z" />
+        <path
+           id="polygon6788"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 605,750 497,621 472,695 Z" />
+        <path
+           id="polygon6790"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 628,827 605,750 461,906 Z" />
+        <path
+           id="polygon6792"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 586,489 -65,30 5,50 z" />
+        <path
+           id="polygon6794"
+           style="fill:#0f0f2b;stroke:#0f0f2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 592,71 575,60 572,168 Z" />
+        <path
+           id="polygon6796"
+           style="fill:#0e0e2a;stroke:#0e0e2a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 605,750 -133,-55 -4,23 z" />
+        <path
+           id="polygon6798"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 605,750 468,718 461,906 Z" />
+        <path
+           id="polygon6800"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 611,120 592,71 572,168 Z" />
+        <path
+           id="polygon6802"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 406,116 145,44 190,81 Z" />
+        <path
+           id="polygon6804"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 575,60 -66,103 63,5 z" />
+        <path
+           id="polygon6806"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 586,489 459,382 521,519 Z" />
+        <path
+           id="polygon6808"
+           style="fill:#141439;stroke:#141439;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 592,71 576,43 575,60 Z" />
+        <path
+           id="polygon6810"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 468,718 -50,161 43,27 z" />
+        <path
+           id="polygon6812"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 555,279 -5,-84 -68,60 z" />
+        <path
+           id="polygon6814"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 575,60 -169,56 103,47 z" />
+        <path
+           id="polygon6816"
+           style="fill:#0f0f2c;stroke:#0f0f2c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 576,43 406,116 575,60 Z" />
+        <path
+           id="polygon6818"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 521,519 459,382 469,517 Z" />
+        <path
+           id="polygon6820"
+           style="fill:#10102f;stroke:#10102f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 572,168 -63,-5 41,32 z" />
+        <path
+           id="polygon6822"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 468,718 -81,60 31,101 z" />
+        <path
+           id="polygon6824"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 469,517 459,382 420,456 Z" />
+        <path
+           id="polygon6826"
+           style="fill:#0a0b20;stroke:#0a0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 555,279 -73,-24 71,56 z" />
+        <path
+           id="polygon6828"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 550,195 -49,-28 -19,88 z" />
+        <path
+           id="polygon6830"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 553,311 482,255 459,382 Z" />
+        <path
+           id="polygon6832"
+           style="fill:#161640;stroke:#161640;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 550,195 -41,-32 -8,4 z" />
+        <path
+           id="polygon6834"
+           style="fill:#0f0f2d;stroke:#0f0f2d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 501,167 -52,71 33,17 z" />
+        <path
+           id="polygon6836"
+           style="fill:#131337;stroke:#131337;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 509,163 -103,-47 95,51 z" />
+        <path
+           id="polygon6838"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 526,569 -78,39 49,13 z" />
+        <path
+           id="polygon6840"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 526,569 -57,-52 -21,91 z" />
+        <path
+           id="polygon6842"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 526,569 -5,-50 -52,-2 z" />
+        <path
+           id="polygon6844"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 482,255 -92,112 69,15 z" />
+        <path
+           id="polygon6846"
+           style="fill:#010208;stroke:#010208;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 472,695 -24,-87 15,88 z" />
+        <path
+           id="polygon6848"
+           style="fill:#0e0e29;stroke:#0e0e29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 482,255 449,238 390,367 Z" />
+        <path
+           id="polygon6850"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 497,621 -49,-13 24,87 z" />
+        <path
+           id="polygon6852"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 501,167 -105,11 53,60 z" />
+        <path
+           id="polygon6854"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 501,167 -95,-51 -10,62 z" />
+        <path
+           id="polygon6856"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 406,116 190,81 218,106 Z" />
+        <path
+           id="polygon6858"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 461,906 418,879 317,915 Z" />
+        <path
+           id="polygon6860"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 468,718 -86,39 5,21 z" />
+        <path
+           id="polygon6862"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 469,517 -84,15 63,76 z" />
+        <path
+           id="polygon6864"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 459,382 -72,36 33,38 z" />
+        <path
+           id="polygon6866"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 463,696 448,608 382,709 Z" />
+        <path
+           id="polygon6868"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 472,695 -9,1 5,22 z" />
+        <path
+           id="polygon6870"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 449,238 -112,104 53,25 z" />
+        <path
+           id="polygon6872"
+           style="fill:#060613;stroke:#060613;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 468,718 -86,-9 v 48 z" />
+        <path
+           id="polygon6874"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 469,517 -49,-61 -35,76 z" />
+        <path
+           id="polygon6876"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 468,718 -5,-22 -81,13 z" />
+        <path
+           id="polygon6878"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 459,382 -76,18 4,18 z" />
+        <path
+           id="polygon6880"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 448,608 -117,19 51,82 z" />
+        <path
+           id="polygon6882"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 459,382 -69,-15 -7,33 z" />
+        <path
+           id="polygon6884"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 448,608 -63,-76 -54,95 z" />
+        <path
+           id="polygon6886"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 449,238 382,192 337,342 Z" />
+        <path
+           id="polygon6888"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 449,238 -53,-60 -14,14 z" />
+        <path
+           id="polygon6890"
+           style="fill:#010106;stroke:#010106;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 406,116 -24,58 14,4 z" />
+        <path
+           id="polygon6892"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 418,879 387,778 317,915 Z" />
+        <path
+           id="polygon6894"
+           style="fill:#10102e;stroke:#10102e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 420,456 -33,-38 -2,18 z" />
+        <path
+           id="polygon6896"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 420,456 -35,-20 v 96 z" />
+        <path
+           id="polygon6898"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 382,192 -109,132 64,18 z" />
+        <path
+           id="polygon6900"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 385,532 v -96 l -89,17 z" />
+        <path
+           id="polygon6902"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 406,116 218,106 382,174 Z" />
+        <path
+           id="polygon6904"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 382,174 -164,-68 19,61 z" />
+        <path
+           id="polygon6906"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 387,778 -144,88 74,49 z" />
+        <path
+           id="polygon6908"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 387,778 254,766 243,866 Z" />
+        <path
+           id="polygon6910"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 396,178 -14,-4 v 18 z" />
+        <path
+           id="polygon6912"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 382,192 237,167 273,324 Z" />
+        <path
+           id="polygon6914"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 390,367 -69,21 41,22 z" />
+        <path
+           id="polygon6916"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 390,367 -53,-25 -16,46 z" />
+        <path
+           id="polygon6918"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 390,367 -28,43 21,-10 z" />
+        <path
+           id="polygon6920"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 385,532 -152,21 98,74 z" />
+        <path
+           id="polygon6922"
+           style="fill:#0d0d27;stroke:#0d0d27;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 387,418 -25,-8 23,26 z" />
+        <path
+           id="polygon6924"
+           style="fill:#0b0b23;stroke:#0b0b23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 387,418 -4,-18 -21,10 z" />
+        <path
+           id="polygon6926"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 385,436 -23,-26 -66,43 z" />
+        <path
+           id="polygon6928"
+           style="fill:#0e0e2b;stroke:#0e0e2b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 387,778 -5,-21 -128,9 z" />
+        <path
+           id="polygon6930"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 382,757 V 709 L 254,766 Z" />
+        <path
+           id="polygon6932"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 385,532 -89,-79 -50,39 z" />
+        <path
+           id="polygon6934"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 385,532 246,492 233,553 Z" />
+        <path
+           id="polygon6936"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 382,709 331,627 237,737 Z" />
+        <path
+           id="polygon6938"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 382,709 -145,28 17,29 z" />
+        <path
+           id="polygon6940"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 382,192 V 174 L 237,167 Z" />
+        <path
+           id="polygon6942"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 273,324 237,167 203,213 Z" />
+        <path
+           id="polygon6944"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 273,324 203,213 v 56 z" />
+        <path
+           id="polygon6946"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 362,410 -41,-22 -25,65 z" />
+        <path
+           id="polygon6948"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 337,342 -54,1 38,45 z" />
+        <path
+           id="polygon6950"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 337,342 -64,-18 10,19 z" />
+        <path
+           id="polygon6952"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 331,627 -98,-74 4,184 z" />
+        <path
+           id="polygon6954"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 321,388 -97,59 72,6 z" />
+        <path
+           id="polygon6956"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 321,388 283,343 224,447 Z" />
+        <path
+           id="polygon6958"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 317,915 -74,-49 -60,49 z" />
+        <path
+           id="polygon6960"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 237,737 -4,-184 -31,1 z" />
+        <path
+           id="polygon6962"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 254,766 -41,30 30,70 z" />
+        <path
+           id="polygon6964"
+           style="fill:#060715;stroke:#060715;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 254,766 -25,8 -16,22 z" />
+        <path
+           id="polygon6966"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 296,453 -72,-6 22,45 z" />
+        <path
+           id="polygon6968"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 237,737 202,554 140,724 Z" />
+        <path
+           id="polygon6970"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 283,343 273,324 194,298 Z" />
+        <path
+           id="polygon6972"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 283,343 -89,-45 30,149 z" />
+        <path
+           id="polygon6974"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 243,866 -30,-70 -16,27 z" />
+        <path
+           id="polygon6976"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 273,324 -70,-55 -9,29 z" />
+        <path
+           id="polygon6978"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 224,447 194,298 82,384 Z" />
+        <path
+           id="polygon6980"
+           style="fill:#0d0d28;stroke:#0d0d28;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 237,167 -19,-61 -23,17 z" />
+        <path
+           id="polygon6982"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 246,492 -44,62 31,-1 z" />
+        <path
+           id="polygon6984"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 254,766 -17,-29 -8,37 z" />
+        <path
+           id="polygon6986"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 202,554 -133,75 71,95 z" />
+        <path
+           id="polygon6988"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 246,492 -84,46 40,16 z" />
+        <path
+           id="polygon6990"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 246,492 -22,-45 -83,39 z" />
+        <path
+           id="polygon6992"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 246,492 -105,-6 21,52 z" />
+        <path
+           id="polygon6994"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 237,737 -24,36 16,1 z" />
+        <path
+           id="polygon6996"
+           style="fill:#050513;stroke:#050513;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 243,866 -46,-43 -14,92 z" />
+        <path
+           id="polygon6998"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 237,167 -42,-44 8,90 z" />
+        <path
+           id="polygon7000"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 237,737 -97,-13 73,49 z" />
+        <path
+           id="polygon7002"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 202,554 162,538 69,629 Z" />
+        <path
+           id="polygon7004"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 224,447 82,384 141,486 Z" />
+        <path
+           id="polygon7006"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 229,774 -16,-1 v 23 z" />
+        <path
+           id="polygon7008"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 213,773 -73,-49 15,56 z" />
+        <path
+           id="polygon7010"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 203,213 -8,-90 -92,54 z" />
+        <path
+           id="polygon7012"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 218,106 -28,-25 5,42 z" />
+        <path
+           id="polygon7014"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 194,298 130,279 82,384 Z" />
+        <path
+           id="polygon7016"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 213,796 v -23 l -58,7 z" />
+        <path
+           id="polygon7018"
+           style="fill:#0c0c24;stroke:#0c0c24;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 213,796 -58,-16 42,43 z" />
+        <path
+           id="polygon7020"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 195,123 -79,-9 -13,63 z" />
+        <path
+           id="polygon7022"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 197,823 76,810 183,915 Z" />
+        <path
+           id="polygon7024"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 203,213 -73,66 73,-10 z" />
+        <path
+           id="polygon7026"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 203,213 103,177 130,279 Z" />
+        <path
+           id="polygon7028"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 203,269 -73,10 64,19 z" />
+        <path
+           id="polygon7030"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 162,538 -91,25 -2,66 z" />
+        <path
+           id="polygon7032"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 195,123 -5,-42 -74,33 z" />
+        <path
+           id="polygon7034"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 197,823 155,780 76,810 Z" />
+        <path
+           id="polygon7036"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 190,81 145,44 116,114 Z" />
+        <path
+           id="polygon7038"
+           style="fill:#08081b;stroke:#08081b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 183,915 76,810 15,896 Z" />
+        <path
+           id="polygon7040"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 140,724 -71,-95 1,82 z" />
+        <path
+           id="polygon7042"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 162,538 141,486 71,563 Z" />
+        <path
+           id="polygon7044"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 130,279 -85,26 37,79 z" />
+        <path
+           id="polygon7046"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 145,44 -61,57 32,13 z" />
+        <path
+           id="polygon7048"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 155,780 -15,-56 -53,5 z" />
+        <path
+           id="polygon7050"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 155,780 87,729 76,810 Z" />
+        <path
+           id="polygon7052"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 82,384 45,305 38,334 Z" />
+        <path
+           id="polygon7054"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 130,279 103,177 28,225 Z" />
+        <path
+           id="polygon7056"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 140,724 70,711 87,729 Z" />
+        <path
+           id="polygon7058"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 145,44 90,20 84,101 Z" />
+        <path
+           id="polygon7060"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 141,486 82,384 71,563 Z" />
+        <path
+           id="polygon7062"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 82,384 49,377 71,563 Z" />
+        <path
+           id="polygon7064"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 130,279 28,225 45,305 Z" />
+        <path
+           id="polygon7066"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 71,563 49,377 -85,475 Z" />
+        <path
+           id="polygon7068"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 71,563 -85,475 26,580 Z" />
+        <path
+           id="polygon7070"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 116,114 -32,-13 19,76 z" />
+        <path
+           id="polygon7072"
+           style="fill:#03030d;stroke:#03030d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 82,384 38,334 49,377 Z" />
+        <path
+           id="polygon7074"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 90,20 -4,74 84,101 Z" />
+        <path
+           id="polygon7076"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 103,177 -7,129 28,225 Z" />
+        <path
+           id="polygon7078"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 103,177 84,101 11,107 Z" />
+        <path
+           id="polygon7080"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 103,177 11,107 -7,129 Z" />
+        <path
+           id="polygon7082"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 49,377 -137,84 3,14 z" />
+        <path
+           id="polygon7084"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 70,711 69,629 24,690 Z" />
+        <path
+           id="polygon7086"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 71,563 -45,17 43,49 z" />
+        <path
+           id="polygon7088"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 76,810 70,711 24,690 Z" />
+        <path
+           id="polygon7090"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 84,101 -4,74 11,107 Z" />
+        <path
+           id="polygon7092"
+           style="fill:#02020b;stroke:#02020b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 87,729 -17,-18 6,99 z" />
+        <path
+           id="polygon7094"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 90,20 -33,21 -4,74 Z" />
+        <path
+           id="polygon7096"
+           style="fill:#060613;stroke:#060613;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 26,580 -85,475 -72,553 Z" />
+        <path
+           id="polygon7098"
+           style="fill:#0a0a1f;stroke:#0a0a1f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 69,629 26,580 17,612 Z" />
+        <path
+           id="polygon7100"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 76,810 -100,87 39,-1 z" />
+        <path
+           id="polygon7102"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 76,810 24,690 -121,794 Z" />
+        <path
+           id="polygon7104"
+           style="fill:#050513;stroke:#050513;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 76,810 -197,-16 97,103 z" />
+        <path
+           id="polygon7106"
+           style="fill:#09091b;stroke:#09091b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 69,629 -52,-17 7,78 z" />
+        <path
+           id="polygon7108"
+           style="fill:#0b0b21;stroke:#0b0b21;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 28,225 -7,129 -27,206 Z" />
+        <path
+           id="polygon7110"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 45,305 28,225 -57,322 Z" />
+        <path
+           id="polygon7112"
+           style="fill:#0b0b22;stroke:#0b0b22;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 49,377 38,334 -57,322 Z" />
+        <path
+           id="polygon7114"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 49,377 -57,322 -88,461 Z" />
+        <path
+           id="polygon7116"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -24,897 -97,-103 31,88 z" />
+        <path
+           id="polygon7118"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 26,580 -98,-27 42,39 z" />
+        <path
+           id="polygon7120"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 28,225 -27,206 -57,322 Z" />
+        <path
+           id="polygon7122"
+           style="fill:#060613;stroke:#060613;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 45,305 -102,17 95,12 z" />
+        <path
+           id="polygon7124"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -27,206 -58,82 28,34 z" />
+        <path
+           id="polygon7126"
+           style="fill:#060613;stroke:#060613;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -24,897 -66,-15 -76,32 z" />
+        <path
+           id="polygon7128"
+           style="fill:#0d0d26;stroke:#0d0d26;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 17,612 -2,598 -30,592 Z" />
+        <path
+           id="polygon7130"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 24,690 17,612 -30,592 Z" />
+        <path
+           id="polygon7132"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 24,690 -54,-98 -41,14 z" />
+        <path
+           id="polygon7134"
+           style="fill:#0a0a20;stroke:#0a0a20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 26,580 -56,12 28,6 z" />
+        <path
+           id="polygon7136"
+           style="fill:#09091d;stroke:#09091d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 26,580 -28,18 19,14 z" />
+        <path
+           id="polygon7138"
+           style="fill:#0c0c23;stroke:#0c0c23;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -90,882 -31,-88 -4,25 z" />
+        <path
+           id="polygon7140"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m 24,690 -95,-84 -50,188 z" />
+        <path
+           id="polygon7142"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -7,129 -44,3 24,74 z" />
+        <path
+           id="polygon7144"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 11,107 -4,74 -41,80 Z" />
+        <path
+           id="polygon7146"
+           style="fill:#020209;stroke:#020209;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M 11,107 -41,80 -7,129 Z" />
+        <path
+           id="polygon7148"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -7,129 -41,80 -51,132 Z" />
+        <path
+           id="polygon7150"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -4,74 -33,21 -41,80 Z" />
+        <path
+           id="polygon7152"
+           style="fill:#020209;stroke:#020209;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -37,21 -20,-1 16,60 z" />
+        <path
+           id="polygon7154"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -33,21 h -4 l -4,59 z" />
+        <path
+           id="polygon7156"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -27,206 -24,-74 -92,77 z" />
+        <path
+           id="polygon7158"
+           style="fill:#080818;stroke:#080818;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -27,206 -116,3 58,79 z" />
+        <path
+           id="polygon7160"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -30,592 -42,-39 1,53 z" />
+        <path
+           id="polygon7162"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -71,606 -66,-23 16,211 z" />
+        <path
+           id="polygon7164"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -121,794 -16,-211 -43,7 z" />
+        <path
+           id="polygon7166"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -57,322 -80,151 49,-12 z" />
+        <path
+           id="polygon7168"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -57,322 -157,115 77,36 z" />
+        <path
+           id="polygon7170"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -41,80 -57,20 h -85 z" />
+        <path
+           id="polygon7172"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -41,80 -166,49 -51,132 Z" />
+        <path
+           id="polygon7174"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -41,80 -142,20 -166,49 Z" />
+        <path
+           id="polygon7176"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -121,794 -59,-204 -74,141 z" />
+        <path
+           id="polygon7178"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -57,322 -85,288 -214,437 Z" />
+        <path
+           id="polygon7180"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -51,132 -115,-83 23,160 z" />
+        <path
+           id="polygon7182"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -85,288 -145,15 16,134 z" />
+        <path
+           id="polygon7184"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -72,553 -13,-78 -60,44 z" />
+        <path
+           id="polygon7186"
+           style="fill:#0a0a1d;stroke:#0a0a1d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -71,606 -1,-53 -65,30 z" />
+        <path
+           id="polygon7188"
+           style="fill:#050512;stroke:#050512;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -72,553 -73,-34 8,64 z" />
+        <path
+           id="polygon7190"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -121,794 -133,-63 19,42 z" />
+        <path
+           id="polygon7192"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -85,475 -52,-2 -8,46 z" />
+        <path
+           id="polygon7194"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -85,288 -58,-79 -87,94 z" />
+        <path
+           id="polygon7196"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -214,437 -16,-134 -25,74 z" />
+        <path
+           id="polygon7198"
+           style="fill:#050513;stroke:#050513;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -85,475 -3,-14 -49,12 z" />
+        <path
+           id="polygon7200"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -90,882 -35,-63 -41,95 z" />
+        <path
+           id="polygon7202"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -173,20 h -97 l 68,8 z" />
+        <path
+           id="polygon7204"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -143,209 -166,49 -253,82 Z" />
+        <path
+           id="polygon7206"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -143,209 -253,82 -270,198 Z" />
+        <path
+           id="polygon7208"
+           style="fill:#0c0c25;stroke:#0c0c25;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -137,583 -8,-64 -21,55 z" />
+        <path
+           id="polygon7210"
+           style="fill:#050510;stroke:#050510;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -125,819 -120,83 79,12 z" />
+        <path
+           id="polygon7212"
+           style="fill:#02020a;stroke:#02020a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -121,794 -114,-21 110,46 z" />
+        <path
+           id="polygon7214"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -125,819 -110,-46 -10,129 z" />
+        <path
+           id="polygon7216"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -166,914 -79,-12 -25,13 z" />
+        <path
+           id="polygon7218"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -145,519 -34,-4 13,59 z" />
+        <path
+           id="polygon7220"
+           style="fill:#04040d;stroke:#04040d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -143,209 -100,86 13,8 z" />
+        <path
+           id="polygon7222"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -137,473 -42,42 34,4 z" />
+        <path
+           id="polygon7224"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -137,583 -29,-9 -14,16 z" />
+        <path
+           id="polygon7226"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -137,473 -77,-36 35,78 z" />
+        <path
+           id="polygon7228"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -143,209 -127,56 27,30 z" />
+        <path
+           id="polygon7230"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -143,209 -127,-11 v 67 z" />
+        <path
+           id="polygon7232"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -142,20 h -31 l 7,29 z" />
+        <path
+           id="polygon7234"
+           style="fill:#050511;stroke:#050511;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -253,82 -17,11 v 105 z" />
+        <path
+           id="polygon7236"
+           style="fill:#09091c;stroke:#09091c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -230,303 -28,28 3,46 z" />
+        <path
+           id="polygon7238"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -180,590 -17,-21 -57,162 z" />
+        <path
+           id="polygon7240"
+           style="fill:#0a0a1e;stroke:#0a0a1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -179,515 -29,17 11,37 z" />
+        <path
+           id="polygon7242"
+           style="fill:#0b0b20;stroke:#0b0b20;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -166,49 -7,-29 -29,8 z" />
+        <path
+           id="polygon7244"
+           style="fill:#060613;stroke:#060613;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -166,49 -36,-21 -51,54 z" />
+        <path
+           id="polygon7246"
+           style="fill:#04040d;stroke:#04040d;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -166,574 -13,-59 -18,54 z" />
+        <path
+           id="polygon7248"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -166,574 -31,-5 17,21 z" />
+        <path
+           id="polygon7250"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -179,515 -35,-78 6,95 z" />
+        <path
+           id="polygon7252"
+           style="fill:#03030c;stroke:#03030c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -208,532 -6,-95 -56,31 z" />
+        <path
+           id="polygon7254"
+           style="fill:#15153c;stroke:#15153c;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -197,569 -11,-37 -62,-64 z" />
+        <path
+           id="polygon7256"
+           style="fill:#08081a;stroke:#08081a;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -197,569 -73,-101 16,263 z" />
+        <path
+           id="polygon7258"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -235,773 -19,-42 -3,8 z" />
+        <path
+           id="polygon7260"
+           style="fill:#080819;stroke:#080819;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -202,28 -68,-8 17,62 z" />
+        <path
+           id="polygon7262"
+           style="fill:#060614;stroke:#060614;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -214,437 -41,-60 -15,13 z" />
+        <path
+           id="polygon7264"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -214,437 -56,-47 v 43 z" />
+        <path
+           id="polygon7266"
+           style="fill:#070718;stroke:#070718;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -235,773 -35,142 25,-13 z" />
+        <path
+           id="polygon7268"
+           style="fill:#070717;stroke:#070717;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -214,437 -56,-4 v 35 z" />
+        <path
+           id="polygon7270"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -243,295 -27,-30 v 16 z" />
+        <path
+           id="polygon7272"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -235,773 -22,-34 -13,176 z" />
+        <path
+           id="polygon7274"
+           style="fill:#04040f;stroke:#04040f;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -230,303 -13,-8 -17,6 z" />
+        <path
+           id="polygon7276"
+           style="fill:#060615;stroke:#060615;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -230,303 -30,-2 2,30 z" />
+        <path
+           id="polygon7278"
+           style="fill:#111131;stroke:#111131;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -255,377 -3,-46 -12,45 z" />
+        <path
+           id="polygon7280"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -254,731 -16,-263 13,271 z" />
+        <path
+           id="polygon7282"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -243,295 -27,-14 10,20 z" />
+        <path
+           id="polygon7284"
+           style="fill:#070716;stroke:#070716;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -253,82 -270,20 V 93 Z" />
+        <path
+           id="polygon7286"
+           style="fill:#020209;stroke:#020209;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -255,377 -15,-1 v 14 z" />
+        <path
+           id="polygon7288"
+           style="fill:#010105;stroke:#010105;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="M -257,739 -270,468 V 915 Z" />
+        <path
+           id="polygon7290"
+           style="fill:#121235;stroke:#121235;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -258,331 -2,-30 -10,-20 z" />
+        <path
+           id="polygon7292"
+           style="fill:#04040e;stroke:#04040e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:1"
+           d="m -258,331 -12,-50 v 95 z" />
+      </g>
+    </g>
+  </g>
+</svg>

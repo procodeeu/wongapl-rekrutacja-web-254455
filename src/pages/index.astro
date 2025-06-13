@@ -1,12 +1,226 @@
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="PROCODE - Strona główna" description="PROCODE - Profesjonalne rozwiązania programistyczne. Szybko, Sprawnie, Niezawodnie.">
+  <section class="intro-section">
+    <div class="intro-content">
+      <h1>Twój projekt IT</h1>
+      <p class="intro-subtitle">Szybko. Sprawnie. Niezawodnie</p>
+    </div>
+    <div class="intro-visual">
+    </div>
+  </section>
+
+  <section class="section kim-jestesmy">
+    <div class="section-header">
+      <h2>Kim jesteśmy?</h2>
+    </div>
+    <div class="section-content">
+      <div class="empty-space">
+      </div>
+      <div class="section-text">
+        <p>
+          Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu 
+          nowoczesnych aplikacji webowych i mobilnych. Projektujemy i budujemy rozwiązania 
+          dopasowane do potrzeb Twojego biznesu - od prostych stron internetowych po 
+          zaawansowane systemy zarządzania.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section jak-dzialamy">
+    <div class="section-header green">
+      <h2>Jak działamy?</h2>
+    </div>
+    <div class="section-content">
+      <div class="process-description">
+        <p>
+          Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. 
+          Stosujemy zwinne metodyki rozwoju oprogramowania, które pozwalają 
+          nam szybko reagować na zmiany i dostarczać wartość w krótkich iteracjach. 
+          Regularnie prezentujemy postępy prac, dzięki czemu masz pełną kontrolę 
+          nad przebiegiem projektu.
+        </p>
+      </div>
+      <div class="empty-space">
+      </div>
+    </div>
+  </section>
+
+  <section class="section kiedy-wiemy">
+    <div class="section-header yellow">
+      <h2>Kiedy wiemy, że możemy wręczyć Ci produkt?</h2>
+    </div>
+    <div class="section-content">
+      <div class="quality-description">
+        <p>
+          Stosujemy sprawdzone praktyki programistyczne i najwyższe standardy 
+          jakości kodu. Dzięki znajomości branży i współpracy z różnymi specjalistami 
+          (projektantami UX/UI, analitykami biznesowymi, testerami) możemy dostarczyć 
+          produkt, który spełnia Twoje oczekiwania i działa niezawodnie w środowisku 
+          produkcyjnym.
+        </p>
+      </div>
+      <div class="empty-space">
+      </div>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  .intro-section {
+    background: url('/bg.svg') no-repeat center center;
+    background-size: cover;
+    background-color: #1a1f36;
+    padding: 4rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60vh;
+  }
+
+  .intro-content {
+    flex: 1;
+    color: white;
+    padding-left: 2rem;
+  }
+
+  .intro-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro-subtitle {
+    font-size: 1.2rem;
+    color: #7dd3fc;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .intro-visual {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+  }
+
+  .section {
+    background: url('/blu-background.svg') no-repeat center center;
+    background-size: cover;
+    background-color: #1a1f36;
+    padding: 3rem 0;
+    color: white;
+  }
+
+  .section-header {
+    text-align: left;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .section-header h2 {
+    background: #7dd3fc;
+    color: #1a1f36;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-right: 3rem;
+  }
+
+  .section-header h2::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #7dd3fc;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  }
+
+  .section-header.green h2 {
+    background: #10b981;
+  }
+
+  .section-header.green h2::after {
+    border-left-color: #10b981;
+  }
+
+  .section-header.yellow h2 {
+    background: #fbbf24;
+  }
+
+  .section-header.yellow h2::after {
+    border-left-color: #fbbf24;
+  }
+
+  .section-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .section-text,
+  .process-description,
+  .quality-description {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e5e7eb;
+  }
+
+
+  .empty-space {
+    flex: 1;
+    min-height: 200px;
+  }
+
+
+  @media (max-width: 768px) {
+    .intro-section {
+      flex-direction: column;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .intro-content,
+    .intro-visual {
+      padding: 0 1rem;
+    }
+
+    .intro-section h1 {
+      font-size: 2rem;
+    }
+
+    .section-content {
+      flex-direction: column;
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    .empty-space {
+      min-height: 100px;
+      order: 2;
+      margin-top: 2rem;
+    }
+
+    .section-text,
+    .process-description,
+    .quality-description {
+      order: 1;
+    }
+  }
+</style>

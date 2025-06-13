@@ -13,6 +13,6 @@ pnpm-debug.log*
 .DS_Store
 
 .env.local
-
+procode-design/
 tina/__generated__/
 tina/.tina-lock
