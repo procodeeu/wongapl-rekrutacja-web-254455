@@ -4,19 +4,21 @@ import { getCollection } from 'astro:content';
 
 const allNews = await getCollection('ourProjects');
 const latestNews = allNews
-  .filter(news => news.data.published)
+  .filter((news) => news.data.published)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 2);
 ---
 
-<Layout title="PROCODE - Strona główna" description="PROCODE - Profesjonalne rozwiązania programistyczne. Szybko, Sprawnie, Niezawodnie.">
+<Layout
+  title="PROCODE - Strona główna"
+  description="PROCODE - Profesjonalne rozwiązania programistyczne. Szybko, Sprawnie, Niezawodnie."
+>
   <section class="intro-section">
     <div class="intro-content">
       <h1>Twój projekt IT</h1>
       <p class="intro-subtitle">Szybko. Sprawnie. Niezawodnie</p>
     </div>
-    <div class="intro-visual">
-    </div>
+    <div class="intro-visual"></div>
   </section>
 
   <section class="news-section">
@@ -26,14 +28,18 @@ const latestNews = allNews
         <a href="/nasze-projekty" class="news-link">Zobacz wszystkie projekty →</a>
       </div>
       <div class="news-grid">
-        {latestNews.map((newsItem) => (
-          <article class="news-card">
-            <h3>{newsItem.data.title}</h3>
-            <time class="news-date">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
-            <p class="news-description">{newsItem.data.description}</p>
-            <a href={`/nasze-projekty/${newsItem.slug}`} class="news-read-more">Czytaj więcej</a>
-          </article>
-        ))}
+        {
+          latestNews.map((newsItem) => (
+            <article class="news-card">
+              <h3>{newsItem.data.title}</h3>
+              <time class="news-date">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
+              <p class="news-description">{newsItem.data.description}</p>
+              <a href={`/nasze-projekty/${newsItem.slug}`} class="news-read-more">
+                Czytaj więcej
+              </a>
+            </article>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -43,14 +49,13 @@ const latestNews = allNews
       <h2>Kim jesteśmy?</h2>
     </div>
     <div class="section-content">
-      <div class="empty-space">
-      </div>
+      <div class="empty-space"></div>
       <div class="section-text">
         <p>
-          Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu 
-          nowoczesnych aplikacji webowych i mobilnych. Projektujemy i budujemy rozwiązania 
-          dopasowane do potrzeb Twojego biznesu - od prostych stron internetowych po 
-          zaawansowane systemy zarządzania.
+          Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu
+          nowoczesnych aplikacji webowych i mobilnych. Projektujemy i budujemy rozwiązania
+          dopasowane do potrzeb Twojego biznesu - od prostych stron internetowych po zaawansowane
+          systemy zarządzania.
         </p>
       </div>
     </div>
@@ -63,15 +68,13 @@ const latestNews = allNews
     <div class="section-content">
       <div class="process-description">
         <p>
-          Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. 
-          Stosujemy zwinne metodyki rozwoju oprogramowania, które pozwalają 
-          nam szybko reagować na zmiany i dostarczać wartość w krótkich iteracjach. 
-          Regularnie prezentujemy postępy prac, dzięki czemu masz pełną kontrolę 
-          nad przebiegiem projektu.
+          Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. Stosujemy zwinne metodyki
+          rozwoju oprogramowania, które pozwalają nam szybko reagować na zmiany i dostarczać wartość
+          w krótkich iteracjach. Regularnie prezentujemy postępy prac, dzięki czemu masz pełną
+          kontrolę nad przebiegiem projektu.
         </p>
       </div>
-      <div class="empty-space">
-      </div>
+      <div class="empty-space"></div>
     </div>
   </section>
 
@@ -82,18 +85,15 @@ const latestNews = allNews
     <div class="section-content">
       <div class="quality-description">
         <p>
-          Stosujemy sprawdzone praktyki programistyczne i najwyższe standardy 
-          jakości kodu. Dzięki znajomości branży i współpracy z różnymi specjalistami 
-          (projektantami UX/UI, analitykami biznesowymi, testerami) możemy dostarczyć 
-          produkt, który spełnia Twoje oczekiwania i działa niezawodnie w środowisku 
-          produkcyjnym.
+          Stosujemy sprawdzone praktyki programistyczne i najwyższe standardy jakości kodu. Dzięki
+          znajomości branży i współpracy z różnymi specjalistami (projektantami UX/UI, analitykami
+          biznesowymi, testerami) możemy dostarczyć produkt, który spełnia Twoje oczekiwania i
+          działa niezawodnie w środowisku produkcyjnym.
         </p>
       </div>
-      <div class="empty-space">
-      </div>
+      <div class="empty-space"></div>
     </div>
   </section>
-
 </Layout>
 
 <style>
@@ -195,7 +195,9 @@ const latestNews = allNews
     border: 2px solid #10b981;
     padding: 2rem;
     border-radius: 8px;
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease;
     backdrop-filter: blur(10px);
   }
 
@@ -310,12 +312,10 @@ const latestNews = allNews
     color: #e5e7eb;
   }
 
-
   .empty-space {
     flex: 1;
     min-height: 200px;
   }
-
 
   @media (max-width: 768px) {
     .intro-section {

@@ -1,7 +1,7 @@
 ---
-title: "CONSECTETUR TYPESCRIPT"
-date: "2025-01-10"
-description: "Adipiscing elit sed do eiusmod tempor incididunt ut labore dolore magna."
+title: 'CONSECTETUR TYPESCRIPT'
+date: '2025-01-10'
+description: 'Adipiscing elit sed do eiusmod tempor incididunt ut labore dolore magna.'
 published: true
 ---
 
@@ -12,12 +12,14 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
 
 ### Voluptatem sequi
+
 - Neque porro quisquam est
 - Qui dolorem ipsum quia dolor
 - Sit amet consectetur adipiscing elit
 - Ut enim ad minima veniam
 
 ### Quis nostrum
+
 Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
 
 ## Magni dolores

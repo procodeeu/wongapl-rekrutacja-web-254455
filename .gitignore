@@ -16,3 +16,6 @@ pnpm-debug.log*
 procode-design/
 tina/__generated__/
 tina/.tina-lock
+
+test-results/
+playwright-report/
