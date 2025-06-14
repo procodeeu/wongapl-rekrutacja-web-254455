@@ -4,11 +4,11 @@ import Layout from '../../components/Layout.astro';
 
 export async function getStaticPaths() {
   const allNews = await getCollection('ourProjects');
-  const publishedNews = allNews.filter(news => news.data.published);
-  
+  const publishedNews = allNews.filter((news) => news.data.published);
+
   const ITEMS_PER_PAGE = 3;
   const totalPages = Math.ceil(publishedNews.length / ITEMS_PER_PAGE);
-  
+
   return Array.from({ length: totalPages }, (_, i) => ({
     params: { page: String(i + 1) },
   }));
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 
 const allNews = await getCollection('ourProjects');
 const publishedNews = allNews
-  .filter(news => news.data.published)
+  .filter((news) => news.data.published)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 const ITEMS_PER_PAGE = 3;
@@ -35,12 +35,15 @@ function formatDate(date: Date): string {
   return date.toLocaleDateString('pl-PL', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
   });
 }
 ---
 
-<Layout title="Nasze projekty - PROCODE" description="Zobacz wszystkie nasze zrealizowane projekty i case studies.">
+<Layout
+  title="Nasze projekty - PROCODE"
+  description="Zobacz wszystkie nasze zrealizowane projekty i case studies."
+>
   <div class="news-page">
     <div class="container">
       <header class="news-page-header">
@@ -49,53 +52,63 @@ function formatDate(date: Date): string {
       </header>
 
       <div class="news-list">
-        {paginatedNews.map((newsItem) => (
-          <article class="news-item">
-            <div class="news-item-content">
-              <h2>
-                <a href={`/nasze-projekty/${newsItem.slug}`}>{newsItem.data.title}</a>
-              </h2>
-              <time class="news-item-date">{formatDate(newsItem.data.date)}</time>
-              <p class="news-item-description">{newsItem.data.description}</p>
-              <a href={`/nasze-projekty/${newsItem.slug}`} class="read-more-btn">Czytaj więcej</a>
-            </div>
-          </article>
-        ))}
+        {
+          paginatedNews.map((newsItem) => (
+            <article class="news-item">
+              <div class="news-item-content">
+                <h2>
+                  <a href={`/nasze-projekty/${newsItem.slug}`}>{newsItem.data.title}</a>
+                </h2>
+                <time class="news-item-date">{formatDate(newsItem.data.date)}</time>
+                <p class="news-item-description">{newsItem.data.description}</p>
+                <a href={`/nasze-projekty/${newsItem.slug}`} class="read-more-btn">
+                  Czytaj więcej
+                </a>
+              </div>
+            </article>
+          ))
+        }
       </div>
 
-      {totalPages > 1 && (
-        <nav class="pagination" aria-label="Paginacja projektów">
-          {currentPage > 1 && (
-            <a href={`/nasze-projekty/${currentPage - 1}`} class="pagination-link">
-              ← Poprzednia strona
-            </a>
-          )}
-          
-          <div class="pagination-numbers">
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-              page === currentPage ? (
-                <span class="pagination-current" aria-current="page">{page}</span>
-              ) : (
-                <a href={`/nasze-projekty/${page}`} class="pagination-link pagination-number">
-                  {page}
-                </a>
-              )
-            ))}
-          </div>
-          
-          {currentPage < totalPages && (
-            <a href={`/nasze-projekty/${currentPage + 1}`} class="pagination-link">
-              Następna strona →
-            </a>
-          )}
-        </nav>
-      )}
+      {
+        totalPages > 1 && (
+          <nav class="pagination" aria-label="Paginacja projektów">
+            {currentPage > 1 && (
+              <a href={`/nasze-projekty/${currentPage - 1}`} class="pagination-link">
+                ← Poprzednia strona
+              </a>
+            )}
 
-      {paginatedNews.length === 0 && (
-        <div class="no-news">
-          <p>Brak projektów do wyświetlenia.</p>
-        </div>
-      )}
+            <div class="pagination-numbers">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) =>
+                page === currentPage ? (
+                  <span class="pagination-current" aria-current="page">
+                    {page}
+                  </span>
+                ) : (
+                  <a href={`/nasze-projekty/${page}`} class="pagination-link pagination-number">
+                    {page}
+                  </a>
+                ),
+              )}
+            </div>
+
+            {currentPage < totalPages && (
+              <a href={`/nasze-projekty/${currentPage + 1}`} class="pagination-link">
+                Następna strona →
+              </a>
+            )}
+          </nav>
+        )
+      }
+
+      {
+        paginatedNews.length === 0 && (
+          <div class="no-news">
+            <p>Brak projektów do wyświetlenia.</p>
+          </div>
+        )
+      }
     </div>
   </div>
 </Layout>

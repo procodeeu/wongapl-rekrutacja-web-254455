@@ -1,7 +1,7 @@
 ---
-title: "LOREM IPSUM REACT"
-date: "2025-01-15"
-description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor."
+title: 'LOREM IPSUM REACT'
+date: '2025-01-15'
+description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.'
 published: true
 ---
 
@@ -16,7 +16,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ## Consectetur adipiscing
 
 - Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit  
+- Consectetur adipiscing elit
 - Sed do eiusmod tempor incididunt
 - Ut labore et dolore magna aliqua
 

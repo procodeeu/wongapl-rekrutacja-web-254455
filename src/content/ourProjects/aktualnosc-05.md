@@ -1,7 +1,7 @@
 ---
-title: "ADIPISCING ANGULAR"
-date: "2025-01-03"
-description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: 'ADIPISCING ANGULAR'
+date: '2025-01-03'
+description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 published: true
 ---
 
@@ -16,7 +16,7 @@ Hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias co
 ### Quis autem vel eum
 
 - Iure reprehenderit qui in ea
-- Voluptate velit esse quam  
+- Voluptate velit esse quam
 - Nihil molestiae consequatur
 - Vel illum qui dolorem eum
 

@@ -4,7 +4,7 @@ import Layout from '../../components/Layout.astro';
 
 export async function getStaticPaths() {
   const newsEntries = await getCollection('ourProjects');
-  return newsEntries.map(entry => ({
+  return newsEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
   }));
@@ -17,7 +17,7 @@ function formatDate(date: Date): string {
   return date.toLocaleDateString('pl-PL', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
   });
 }
 ---
@@ -37,9 +37,7 @@ function formatDate(date: Date): string {
         <header class="article-header">
           <h1>{entry.data.title}</h1>
           <time class="article-date">{formatDate(entry.data.date)}</time>
-          {entry.data.description && (
-            <p class="article-description">{entry.data.description}</p>
-          )}
+          {entry.data.description && <p class="article-description">{entry.data.description}</p>}
         </header>
 
         <div class="article-body">

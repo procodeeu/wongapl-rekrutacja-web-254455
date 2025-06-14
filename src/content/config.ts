@@ -14,11 +14,13 @@ const footerLinks = defineCollection({
   type: 'data',
   schema: z.object({
     title: z.string(),
-    links: z.array(z.object({
-      text: z.string(),
-      url: z.string(),
-      external: z.boolean().optional(),
-    })),
+    links: z.array(
+      z.object({
+        text: z.string(),
+        url: z.string(),
+        external: z.boolean().optional(),
+      }),
+    ),
   }),
 });
 
