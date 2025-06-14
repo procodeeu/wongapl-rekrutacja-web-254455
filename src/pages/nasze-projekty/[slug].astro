@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../components/Layout.astro';
+
+export async function getStaticPaths() {
+  const newsEntries = await getCollection('ourProjects');
+  return newsEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('pl-PL', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+}
+---
+
+<Layout title={`${entry.data.title} - PROCODE`} description={entry.data.description}>
+  <div class="news-article">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="/">Strona główna</a>
+        <span>→</span>
+        <a href="/nasze-projekty">Nasze projekty</a>
+        <span>→</span>
+        <span>{entry.data.title}</span>
+      </nav>
+
+      <article class="article-content">
+        <header class="article-header">
+          <h1>{entry.data.title}</h1>
+          <time class="article-date">{formatDate(entry.data.date)}</time>
+          {entry.data.description && (
+            <p class="article-description">{entry.data.description}</p>
+          )}
+        </header>
+
+        <div class="article-body">
+          <Content />
+        </div>
+
+        <footer class="article-footer">
+          <a href="/nasze-projekty" class="back-link">← Powrót do wszystkich projektów</a>
+        </footer>
+      </article>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .news-article {
+    background: url('/bg.svg') no-repeat center center;
+    background-size: cover;
+    background-color: #1a1f36;
+    min-height: 100vh;
+    padding: 4rem 0;
+    color: white;
+  }
+
+  .breadcrumb {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: #e5e7eb;
+  }
+
+  .breadcrumb a {
+    color: #10b981;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .breadcrumb a:hover {
+    color: #fbbf24;
+  }
+
+  .breadcrumb span {
+    margin: 0 0.5rem;
+    color: #7dd3fc;
+  }
+
+  .article-content {
+    background: rgba(26, 31, 54, 0.9);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+  }
+
+  .article-header {
+    padding: 3rem 3rem 2rem;
+  }
+
+  .article-header h1 {
+    margin: 0 0 1rem 0;
+    color: #fbbf24;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+
+  .article-date {
+    color: #7dd3fc;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .article-description {
+    color: #e5e7eb;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+  }
+
+  .article-body {
+    padding: 2rem 3rem;
+    line-height: 1.7;
+  }
+
+  .article-body h1,
+  .article-body h2,
+  .article-body h3 {
+    color: #fbbf24;
+    margin: 2rem 0 1rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .article-body h1 {
+    font-size: 1.875rem;
+  }
+
+  .article-body h2 {
+    font-size: 1.5rem;
+  }
+
+  .article-body h3 {
+    font-size: 1.25rem;
+  }
+
+  .article-body p {
+    margin-bottom: 1.5rem;
+    color: #e5e7eb;
+  }
+
+  .article-body ul,
+  .article-body ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .article-body li {
+    margin-bottom: 0.5rem;
+    color: #e5e7eb;
+  }
+
+  .article-body strong {
+    color: #fbbf24;
+    font-weight: 700;
+  }
+
+  .article-body code {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+  }
+
+  .article-body pre {
+    background: #0f172a;
+    color: #e5e7eb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  .article-body blockquote {
+    border-left: 4px solid #fbbf24;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #7dd3fc;
+    background: rgba(251, 191, 36, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+  }
+
+  .article-footer {
+    padding: 2rem 3rem 3rem;
+  }
+
+  .back-link {
+    background: #10b981;
+    color: #1a1f36;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+
+  .back-link:hover {
+    background: #fbbf24;
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 768px) {
+    .news-article {
+      padding: 2rem 0;
+    }
+
+    .article-header,
+    .article-body,
+    .article-footer {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .article-header {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .article-body {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .article-footer {
+      padding-top: 1.5rem;
+      padding-bottom: 2rem;
+    }
+
+    .breadcrumb {
+      padding: 0 1rem;
+    }
+  }
+</style>

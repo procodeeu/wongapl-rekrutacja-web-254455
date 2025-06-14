@@ -1,10 +1,18 @@
 ---
+import { getCollection } from 'astro:content';
+
 export interface Props {
   title: string;
   description?: string;
 }
 
 const { title, description = "PROCODE - Profesjonalne rozwiązania programistyczne" } = Astro.props;
+
+const footerLinksData = await getCollection('footer-links');
+const footerTextData = await getCollection('footer-text');
+
+const footerLinks = footerLinksData[0]?.data.links || [];
+const footerText = footerTextData[0]?.data.content || '2025 PROCODE';
 ---
 
 <!DOCTYPE html>
@@ -30,11 +38,6 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
                 <img src="/g4786.png" alt="PROCODE" class="brand-logo" />
               </a>
             </div>
-            <ul class="nav-menu">
-              <li><a href="/" class="nav-link">Strona główna</a></li>
-              <li><a href="/news" class="nav-link">Blog</a></li>
-              <li><a href="/contact" class="nav-link">Kontakt</a></li>
-            </ul>
           </nav>
         </div>
       </header>
@@ -48,7 +51,21 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
       <footer class="site-footer">
         <div class="container">
           <div class="footer-content">
-            <p>2025 PROCODE</p>
+            <div class="footer-links">
+              {footerLinks.map((link) => (
+                <a 
+                  href={link.url} 
+                  class="footer-link"
+                  target={link.external ? '_blank' : undefined}
+                  rel={link.external ? 'noopener noreferrer' : undefined}
+                >
+                  {link.text}
+                </a>
+              ))}
+            </div>
+            <div class="footer-text">
+              <p set:html={footerText} />
+            </div>
           </div>
         </div>
       </footer>
@@ -94,6 +111,10 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: url('/bg.svg') no-repeat center center;
+    background-size: cover;
+    background-color: #1a1f36;
+    background-attachment: fixed;
   }
 
   .container {
@@ -111,7 +132,7 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
   .main-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
   }
 
   .brand-link {
@@ -124,27 +145,6 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
     width: auto;
   }
 
-  .nav-menu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: #4a4a4a;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-
-  .nav-link:hover {
-    color: #007acc;
-  }
-
-  .nav-link[aria-current="page"] {
-    color: #007acc;
-    font-weight: 600;
-  }
 
   .main-content {
     flex: 1;
@@ -154,18 +154,44 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
   .site-footer {
     background: #1a1f36;
     border-top: 2px solid #10b981;
-    padding: 2rem 0;
+    padding: 3rem 0 2rem;
     margin-top: auto;
   }
 
   .site-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
     text-align: center;
   }
 
-  .site-footer p {
-    color: #e5e7eb;
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .footer-link {
+    color: #10b981;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 0.9rem;
+    transition: color 0.2s ease;
+    border-bottom: 1px solid transparent;
+  }
+
+  .footer-link:hover {
+    color: #fbbf24;
+    border-bottom-color: #fbbf24;
+  }
+
+  .footer-text p {
+    color: #e5e7eb;
+    font-size: 0.85rem;
     margin: 0;
+    line-height: 1.5;
   }
 
   h1 {
@@ -202,14 +228,6 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
       padding: 0 0.75rem;
     }
 
-    .main-nav {
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .nav-menu {
-      gap: 1.5rem;
-    }
 
     .brand-text {
       font-size: 1.25rem;
@@ -230,15 +248,17 @@ const { title, description = "PROCODE - Profesjonalne rozwiązania programistycz
     .main-content {
       padding: 1.5rem 0;
     }
+
+    .footer-links {
+      gap: 1rem;
+    }
+
+    .site-footer {
+      padding: 2rem 0 1.5rem;
+    }
   }
 
   @media (max-width: 480px) {
-    .nav-menu {
-      flex-direction: column;
-      gap: 1rem;
-      text-align: center;
-    }
-
     h1 {
       font-size: 1.75rem;
     }

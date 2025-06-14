@@ -1,0 +1,14 @@
+title: "Lista linków"
+links:
+  - text: "Strona główna"
+    url: "/"
+    external: false
+  - text: "Nasze projekty"
+    url: "/nasze-projekty"
+    external: false
+  - text: "LinkedIn"
+    url: "https://www.linkedin.com/in/karol-laszczkowski-9b70b4122/"
+    external: true
+  - text: "GitHub"
+    url: "https://github.com/procodeeu"
+    external: true
