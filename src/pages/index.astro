@@ -14,16 +14,25 @@ const latestNews = allNews
   description="PROCODE - Profesjonalne rozwiązania programistyczne. Szybko, Sprawnie, Niezawodnie."
 >
   <section class="intro-section">
-    <div class="intro-content">
-      <h1>Twój projekt IT</h1>
-      <p class="intro-subtitle">Szybko. Sprawnie. Niezawodnie</p>
+    <div class="intro-background"></div>
+    <div class="intro-overlay">
+      <div class="intro-logo">
+        <a href="/" class="logo-link">
+          <img src="/logo-procode.svg" alt="PROCODE" class="logo-large" />
+        </a>
+      </div>
     </div>
-    <div class="intro-visual"></div>
+    <div class="intro-text-overlay">
+      <div class="intro-content">
+        <h1>Twój projekt IT</h1>
+        <p class="intro-subtitle">Szybko. Sprawnie. Niezawodnie</p>
+      </div>
+    </div>
   </section>
 
   <section class="news-section">
     <div class="container">
-      <div class="news-header">
+      <div class="news-header green half-width-header">
         <h2>Nasze najnowsze projekty</h2>
         <a href="/nasze-projekty" class="news-link">Zobacz wszystkie projekty →</a>
       </div>
@@ -31,7 +40,9 @@ const latestNews = allNews
         {
           latestNews.map((newsItem) => (
             <article class="news-card">
-              <h3>{newsItem.data.title}</h3>
+              <a href={`/nasze-projekty/${newsItem.slug}`} class="news-title-link">
+                <h3>{newsItem.data.title}</h3>
+              </a>
               <time class="news-date">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
               <p class="news-description">{newsItem.data.description}</p>
               <a href={`/nasze-projekty/${newsItem.slug}`} class="news-read-more">
@@ -44,99 +55,163 @@ const latestNews = allNews
     </div>
   </section>
 
-  <section class="section kim-jestesmy">
-    <div class="section-header">
-      <h2>Kim jesteśmy?</h2>
-    </div>
-    <div class="section-content">
-      <div class="team-visual">
-        <img src="/team-group-svgrepo-com (1).svg" alt="Zespół ikona" class="team-icon" />
+  <section class="section">
+    <div class="container">
+      <div class="section-header half-width-header">
+        <h2>Kim jesteśmy?</h2>
       </div>
-      <div class="section-text">
-        <p>
-          Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu
-          nowoczesnych aplikacji webowych i mobilnych. Projektujemy i budujemy rozwiązania
-          dopasowane do potrzeb Twojego biznesu - od prostych stron internetowych po zaawansowane
-          systemy zarządzania.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section jak-dzialamy">
-    <div class="section-header green">
-      <h2>Jak działamy?</h2>
-    </div>
-    <div class="section-content">
-      <div class="process-description">
-        <p>
-          Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. Stosujemy zwinne metodyki
-          rozwoju oprogramowania, które pozwalają nam szybko reagować na zmiany i dostarczać wartość
-          w krótkich iteracjach. Regularnie prezentujemy postępy prac, dzięki czemu masz pełną
-          kontrolę nad przebiegiem projektu.
-        </p>
-      </div>
-      <div class="process-visual">
-        <img src="/laptop-line-svgrepo-com (1).svg" alt="Laptop ikona" class="process-icon" />
+      <div class="section-content">
+        <div class="team-visual">
+          <img src="/team-group-svgrepo-com (1).svg" alt="Zespół ikona" class="team-icon" />
+        </div>
+        <div class="section-text">
+          <p>
+            Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu
+            nowoczesnych aplikacji webowych i mobilnych. Projektujemy i budujemy rozwiązania
+            dopasowane do potrzeb Twojego biznesu - od prostych stron internetowych po zaawansowane
+            systemy zarządzania.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section kiedy-wiemy">
-    <div class="section-header yellow">
-      <h2>Kiedy wiemy, że możemy wręczyć Ci produkt?</h2>
-    </div>
-    <div class="section-content">
-      <div class="quality-description">
-        <p>
-          Stosujemy sprawdzone praktyki programistyczne i najwyższe standardy jakości kodu. Dzięki
-          znajomości branży i współpracy z różnymi specjalistami (projektantami UX/UI, analitykami
-          biznesowymi, testerami) możemy dostarczyć produkt, który spełnia Twoje oczekiwania i
-          działa niezawodnie w środowisku produkcyjnym.
-        </p>
+  <section class="section">
+    <div class="container">
+      <div class="section-header green">
+        <h2>Jak działamy?</h2>
       </div>
-      <div class="quality-visual">
-        <img src="/wall-svgrepo-com.svg" alt="Jakość ikona" class="quality-icon" />
+      <div class="section-content">
+        <div class="process-description">
+          <p>
+            Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. Stosujemy zwinne metodyki
+            rozwoju oprogramowania, które pozwalają nam szybko reagować na zmiany i dostarczać wartość
+            w krótkich iteracjach. Regularnie prezentujemy postępy prac, dzięki czemu masz pełną
+            kontrolę nad przebiegiem projektu.
+          </p>
+        </div>
+        <div class="process-visual">
+          <img src="/laptop-line-svgrepo-com (1).svg" alt="Laptop ikona" class="process-icon" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header yellow half-width-header">
+        <h2>Kiedy wiemy, że możemy wręczyć Ci produkt?</h2>
+      </div>
+      <div class="section-content">
+        <div class="quality-visual">
+          <img src="/wall-svgrepo-com.svg" alt="Jakość ikona" class="quality-icon" />
+        </div>
+        <div class="quality-description">
+          <p>
+            Stosujemy sprawdzone praktyki programistyczne i najwyższe standardy jakości kodu. Dzięki
+            znajomości branży i współpracy z różnymi specjalistami (projektantami UX/UI, analitykami
+            biznesowymi, testerami) możemy dostarczyć produkt, który spełnia Twoje oczekiwania i
+            działa niezawodnie w środowisku produkcyjnym.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 </Layout>
 
 <style>
+  :global(.site-header) {
+    display: none;
+  }
+
+  :global(.main-content) {
+    padding: 0;
+  }
+
   .intro-section {
-    padding: 4rem 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     min-height: 60vh;
+    overflow: hidden;
+    margin: -2rem -1rem 0 -1rem;
+    width: calc(100% + 2rem);
   }
 
-  .intro-content {
-    flex: 1;
-    color: white;
-    padding-left: 2rem;
+  .intro-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/pexels-goumbik-574069.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
   }
 
-  .intro-section h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 0.5rem;
+  .intro-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 245, 200, 0.7) 0%,
+      rgba(255, 250, 230, 0.3) 40%,
+      rgba(255, 255, 255, 0) 60%
+    );
+    mix-blend-mode: screen;
   }
 
-  .intro-subtitle {
-    font-size: 1.2rem;
-    color: #7dd3fc;
-    font-weight: 400;
+  .intro-overlay {
+    position: absolute;
+    top: 80px;
+    left: 4rem;
+    z-index: 2;
+  }
+
+  .intro-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+
+  .intro-logo {
     margin: 0;
   }
 
-  .intro-visual {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2rem;
+  .logo-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .logo-large {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .intro-content {
+    color: #1a1a1a;
+  }
+
+  .intro-section h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+  }
+
+  .intro-subtitle {
+    font-size: 2rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
   }
 
   .news-section {
@@ -176,7 +251,7 @@ const latestNews = allNews
   }
 
   .news-link {
-    background: #fbbf24;
+    background: rgb(184, 255, 11);
     color: #1a1f36;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -186,7 +261,7 @@ const latestNews = allNews
   }
 
   .news-link:hover {
-    background: #f59e0b;
+    background: rgb(160, 220, 10);
     transform: translateY(-1px);
   }
 
@@ -197,28 +272,62 @@ const latestNews = allNews
   }
 
   .news-card {
-    background: rgba(26, 31, 54, 0.8);
-    border: 2px solid #10b981;
+    background: #1a1f36;
     padding: 2rem;
-    border-radius: 8px;
-    transition:
-      transform 0.2s ease,
-      border-color 0.2s ease;
+    position: relative;
     backdrop-filter: blur(10px);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+    transition: border-color 0.2s ease;
   }
 
-  .news-card:hover {
-    transform: translateY(-4px);
-    border-color: #fbbf24;
+  .news-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #10b981;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+    z-index: -1;
+    transition: background-color 0.2s ease;
+  }
+
+  .news-card::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: #1a1f36;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+    z-index: -1;
+  }
+
+  .news-card:hover::before {
+    background: rgb(184, 255, 11);
+  }
+
+  .news-title-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.75rem;
+    transition: color 0.2s ease;
+  }
+
+  .news-title-link:hover h3 {
+    color: #10b981;
   }
 
   .news-card h3 {
-    color: #fbbf24;
-    margin: 0 0 0.75rem 0;
+    color: rgb(184, 255, 11);
+    margin: 0;
     font-size: 1.125rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    transition: color 0.2s ease;
   }
 
   .news-date {
@@ -242,11 +351,12 @@ const latestNews = allNews
     text-transform: uppercase;
     font-size: 0.875rem;
     letter-spacing: 0.5px;
-    transition: color 0.2s ease;
+    transition: border-bottom-color 0.2s ease;
+    border-bottom: 1px solid transparent;
   }
 
   .news-read-more:hover {
-    color: #fbbf24;
+    border-bottom-color: #10b981;
   }
 
   .section {
@@ -270,6 +380,7 @@ const latestNews = allNews
     margin: 0;
     position: relative;
     padding-right: 3rem;
+    min-width: 50%;
   }
 
   .section-header h2::after {
@@ -284,38 +395,57 @@ const latestNews = allNews
     border-bottom: 25px solid transparent;
   }
 
-  .section-header.green h2 {
-    background: #10b981;
+  .half-width-header {
+    text-align: right;
   }
 
-  .section-header.green h2::after {
-    border-left-color: #10b981;
+  .news-header.half-width-header {
+    text-align: left;
   }
 
-  .section-header.yellow h2 {
-    background: #fbbf24;
+  .half-width-header h2 {
+    width: 50%;
+    margin-right: 0;
+    background: rgb(184, 255, 11);
   }
 
-  .section-header.yellow h2::after {
-    border-left-color: #fbbf24;
+  .half-width-header h2::after {
+    border-left-color: rgb(184, 255, 11);
+  }
+
+  .green h2 {
+    background: rgb(34, 255, 181);
+  }
+
+  .green h2::after {
+    border-left-color: rgb(34, 255, 181);
   }
 
   .section-content {
     display: flex;
     align-items: center;
-    gap: 3rem;
-    max-width: 1200px;
+    gap: 2rem;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 
   .section-text,
   .process-description,
   .quality-description {
     flex: 1;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.6;
-    color: #e5e7eb;
+    color: white;
+    font-weight: 500;
+  }
+
+  .section-text p,
+  .process-description p,
+  .quality-description p {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
   }
 
   .empty-space {
@@ -338,7 +468,9 @@ const latestNews = allNews
     width: 150px;
     height: 150px;
     opacity: 0.8;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
   }
 
   .team-icon:hover,
@@ -349,15 +481,15 @@ const latestNews = allNews
   }
 
   @media (max-width: 768px) {
-    .intro-section {
-      flex-direction: column;
-      padding: 2rem 0;
+    .intro-overlay {
+      padding: 2rem 1rem;
       text-align: center;
+      align-items: center;
+      background: linear-gradient(to bottom, rgba(26, 31, 54, 0.9) 0%, rgba(26, 31, 54, 0.8) 100%);
     }
 
-    .intro-content,
-    .intro-visual {
-      padding: 0 1rem;
+    .logo-large {
+      height: 80px;
     }
 
     .intro-section h1 {
