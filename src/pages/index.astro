@@ -49,7 +49,9 @@ const latestNews = allNews
       <h2>Kim jesteśmy?</h2>
     </div>
     <div class="section-content">
-      <div class="empty-space"></div>
+      <div class="team-visual">
+        <img src="/team-group-svgrepo-com (1).svg" alt="Zespół ikona" class="team-icon" />
+      </div>
       <div class="section-text">
         <p>
           Jesteśmy zespołem doświadczonych programistów specjalizujących się w tworzeniu
@@ -74,7 +76,9 @@ const latestNews = allNews
           kontrolę nad przebiegiem projektu.
         </p>
       </div>
-      <div class="empty-space"></div>
+      <div class="process-visual">
+        <img src="/laptop-line-svgrepo-com (1).svg" alt="Laptop ikona" class="process-icon" />
+      </div>
     </div>
   </section>
 
@@ -91,7 +95,9 @@ const latestNews = allNews
           działa niezawodnie w środowisku produkcyjnym.
         </p>
       </div>
-      <div class="empty-space"></div>
+      <div class="quality-visual">
+        <img src="/wall-svgrepo-com.svg" alt="Jakość ikona" class="quality-icon" />
+      </div>
     </div>
   </section>
 </Layout>
@@ -317,6 +323,31 @@ const latestNews = allNews
     min-height: 200px;
   }
 
+  .team-visual,
+  .process-visual,
+  .quality-visual {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-icon,
+  .process-icon,
+  .quality-icon {
+    width: 150px;
+    height: 150px;
+    opacity: 0.8;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .team-icon:hover,
+  .process-icon:hover,
+  .quality-icon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
   @media (max-width: 768px) {
     .intro-section {
       flex-direction: column;
@@ -349,6 +380,20 @@ const latestNews = allNews
     .process-description,
     .quality-description {
       order: 1;
+    }
+
+    .team-visual,
+    .process-visual,
+    .quality-visual {
+      order: 2;
+      margin-top: 2rem;
+    }
+
+    .team-icon,
+    .process-icon,
+    .quality-icon {
+      width: 100px;
+      height: 100px;
     }
 
     .news-grid {
