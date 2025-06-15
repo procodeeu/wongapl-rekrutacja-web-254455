@@ -34,7 +34,12 @@ jobs:
       - name: Install Playwright
         run: npx playwright install --with-deps
 
-      - name: Run tests
+      - name: Run tests (in PR's skip visual)
+        if: github.event_name == 'pull_request'
+        run: npm run test -- --grep-invert "Visual Regression" || true
+
+      - name: Run tests (in push - include visual)
+        if: github.event_name == 'push'
         run: npm run test || true
 
       - name: Update snapshots
