@@ -80,6 +80,16 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
 </html>
 
 <style is:global>
+  :root {
+    /* Brand colors - consolidating repeated values */
+    --primary-green: #10b981;
+    --accent-green: #22ffb5;
+    --lime-green: #b8ff0b;
+    --lime-green-hover: #a0dc0a;
+    --dark-blue: #000025;
+    --text-light: #e5e7eb;
+  }
+
   *,
   *::before,
   *::after {
@@ -206,7 +216,7 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
   }
 
   .footer-link {
-    color: #10b981;
+    color: var(--primary-green);
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
@@ -215,19 +225,19 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
   }
 
   .footer-link:hover {
-    color: #10b981;
-    border-bottom-color: #10b981;
+    color: var(--primary-green);
+    border-bottom-color: var(--primary-green);
   }
 
   .footer-text p {
-    color: #e5e7eb;
+    color: var(--text-light);
     font-size: 0.85rem;
     margin: 0;
     line-height: 1.5;
   }
 
   .footer-text strong {
-    color: #10b981;
+    color: var(--primary-green);
     font-weight: 700;
   }
 
@@ -237,12 +247,12 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
   }
 
   .footer-text a {
-    color: #e5e7eb;
+    color: var(--text-light);
     text-decoration: underline;
   }
 
   .footer-text a:hover {
-    color: #10b981;
+    color: var(--primary-green);
   }
 
   h1 {
@@ -259,7 +269,7 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
     font-weight: 600;
     line-height: 1.3;
     margin-bottom: 0.875rem;
-    color: #b8ff0b;
+    color: var(--lime-green);
     text-transform: uppercase;
   }
 

@@ -133,7 +133,7 @@ function formatDate(date: Date): string {
   }
 
   .page-header h1 {
-    color: #b8ff0b;
+    color: var(--lime-green);
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -141,7 +141,7 @@ function formatDate(date: Date): string {
   }
 
   .page-header p {
-    color: #e5e7eb;
+    color: var(--text-light);
     font-size: 1.125rem;
   }
 
@@ -164,7 +164,7 @@ function formatDate(date: Date): string {
   }
 
   .project-title-link {
-    color: #b8ff0b;
+    color: var(--lime-green);
     text-decoration: none;
     transition: color 0.2s ease;
     font-weight: 700;
@@ -173,11 +173,11 @@ function formatDate(date: Date): string {
   }
 
   .project-title-link:hover {
-    color: #10b981;
+    color: var(--primary-green);
   }
 
   .project-date {
-    color: #22ffb5;
+    color: var(--accent-green);
     font-size: 0.875rem;
     display: block;
     margin-bottom: 1rem;
@@ -185,7 +185,7 @@ function formatDate(date: Date): string {
   }
 
   .project-description {
-    color: #e5e7eb;
+    color: var(--text-light);
     line-height: 1.6;
     margin-bottom: 1.5rem;
     padding: 0 2rem;
@@ -196,8 +196,8 @@ function formatDate(date: Date): string {
   }
 
   .btn {
-    background: #b8ff0b;
-    color: #000025;
+    background: var(--lime-green);
+    color: var(--dark-blue);
     padding: 0.75rem 1.5rem;
     border-radius: 0;
     text-decoration: none;
@@ -210,7 +210,7 @@ function formatDate(date: Date): string {
   }
 
   .btn:hover {
-    background: #a0dc0a;
+    background: var(--lime-green-hover);
   }
 
   .pagination {
@@ -232,10 +232,10 @@ function formatDate(date: Date): string {
   .pagination-link,
   .pagination-current {
     padding: 0.75rem 1rem;
-    border: 2px solid #10b981;
+    border: 2px solid var(--primary-green);
     border-radius: 0;
     text-decoration: none;
-    color: #e5e7eb;
+    color: var(--text-light);
     background: rgba(26, 31, 54, 0.8);
     transition: all 0.2s ease;
     font-weight: 600;
@@ -247,15 +247,15 @@ function formatDate(date: Date): string {
   }
 
   .pagination-link:hover {
-    background: #10b981;
-    color: #000025;
+    background: var(--primary-green);
+    color: var(--dark-blue);
     transform: translateY(-1px);
   }
 
   .pagination-current {
-    background: #22ffb5;
-    color: #000025;
-    border-color: #22ffb5;
+    background: var(--accent-green);
+    color: var(--dark-blue);
+    border-color: var(--accent-green);
   }
 
   .no-news {
