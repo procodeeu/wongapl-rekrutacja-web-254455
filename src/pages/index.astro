@@ -85,9 +85,9 @@ const latestNews = allNews
         <div class="process-description">
           <p>
             Realizujemy projekty kompleksowo - od koncepcji po wdrożenie. Stosujemy zwinne metodyki
-            rozwoju oprogramowania, które pozwalają nam szybko reagować na zmiany i dostarczać wartość
-            w krótkich iteracjach. Regularnie prezentujemy postępy prac, dzięki czemu masz pełną
-            kontrolę nad przebiegiem projektu.
+            rozwoju oprogramowania, które pozwalają nam szybko reagować na zmiany i dostarczać
+            wartość w krótkich iteracjach. Regularnie prezentujemy postępy prac, dzięki czemu masz
+            pełną kontrolę nad przebiegiem projektu.
           </p>
         </div>
         <div class="process-visual">
@@ -130,7 +130,7 @@ const latestNews = allNews
 
   .intro-section {
     position: relative;
-    min-height: 60vh;
+    min-height: max(60vh, 500px);
     overflow: hidden;
     margin: -2rem -1rem 0 -1rem;
     width: calc(100% + 2rem);
@@ -236,6 +236,7 @@ const latestNews = allNews
     margin: 0;
     position: relative;
     padding-right: 3rem;
+    text-transform: uppercase;
   }
 
   .news-header h2::after {
@@ -251,18 +252,19 @@ const latestNews = allNews
   }
 
   .news-link {
-    background: rgb(184, 255, 11);
-    color: #1a1f36;
+    background: #b8ff0b;
+    color: #000025;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     font-weight: 700;
-    border-radius: 4px;
+    border-radius: 0;
     transition: all 0.2s ease;
+    font-size: 0.788rem;
+    text-transform: uppercase;
   }
 
   .news-link:hover {
-    background: rgb(160, 220, 10);
-    transform: translateY(-1px);
+    background: #a0dc0a;
   }
 
   .news-grid {
@@ -272,7 +274,7 @@ const latestNews = allNews
   }
 
   .news-card {
-    background: #1a1f36;
+    background: #000025;
     padding: 2rem;
     position: relative;
     backdrop-filter: blur(10px);
@@ -300,13 +302,13 @@ const latestNews = allNews
     left: 2px;
     right: 2px;
     bottom: 2px;
-    background: #1a1f36;
+    background: #000025;
     clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
     z-index: -1;
   }
 
   .news-card:hover::before {
-    background: rgb(184, 255, 11);
+    background: #b8ff0b;
   }
 
   .news-title-link {
@@ -321,7 +323,7 @@ const latestNews = allNews
   }
 
   .news-card h3 {
-    color: rgb(184, 255, 11);
+    color: #b8ff0b;
     margin: 0;
     font-size: 1.125rem;
     font-weight: 700;
@@ -331,7 +333,7 @@ const latestNews = allNews
   }
 
   .news-date {
-    color: #7dd3fc;
+    color: #22ffb5;
     font-size: 0.875rem;
     display: block;
     margin-bottom: 1rem;
@@ -349,7 +351,7 @@ const latestNews = allNews
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 0.788rem;
     letter-spacing: 0.5px;
     transition: border-bottom-color 0.2s ease;
     border-bottom: 1px solid transparent;
@@ -371,8 +373,8 @@ const latestNews = allNews
   }
 
   .section-header h2 {
-    background: #7dd3fc;
-    color: #1a1f36;
+    background: #22ffb5;
+    color: #000025;
     display: inline-block;
     padding: 0.75rem 2rem;
     font-size: 1.5rem;
@@ -390,7 +392,7 @@ const latestNews = allNews
     top: 0;
     width: 0;
     height: 0;
-    border-left: 20px solid #7dd3fc;
+    border-left: 20px solid #22ffb5;
     border-top: 25px solid transparent;
     border-bottom: 25px solid transparent;
   }
@@ -404,21 +406,21 @@ const latestNews = allNews
   }
 
   .half-width-header h2 {
-    width: 50%;
+    min-width: 50%;
     margin-right: 0;
-    background: rgb(184, 255, 11);
+    background: #b8ff0b;
   }
 
   .half-width-header h2::after {
-    border-left-color: rgb(184, 255, 11);
+    border-left-color: #b8ff0b;
   }
 
   .green h2 {
-    background: rgb(34, 255, 181);
+    background: #22ffb5;
   }
 
   .green h2::after {
-    border-left-color: rgb(34, 255, 181);
+    border-left-color: #22ffb5;
   }
 
   .section-content {
@@ -485,7 +487,6 @@ const latestNews = allNews
       padding: 2rem 1rem;
       text-align: center;
       align-items: center;
-      background: linear-gradient(to bottom, rgba(26, 31, 54, 0.9) 0%, rgba(26, 31, 54, 0.8) 100%);
     }
 
     .logo-large {

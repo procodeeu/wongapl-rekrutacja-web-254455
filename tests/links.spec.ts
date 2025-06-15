@@ -13,7 +13,7 @@ test.describe('Home Page links', () => {
 
     await page.click('.footer-link[href="/nasze-projekty"]');
     await expect(page).toHaveURL('/nasze-projekty/1');
-    await expect(page.locator('.news-page-header h1')).toContainText('Nasze projekty');
+    await expect(page.locator('.page-header h1')).toContainText('Nasze projekty');
   });
 
   test('home page - should have working news card links', async ({ page }) => {
@@ -22,7 +22,7 @@ test.describe('Home Page links', () => {
     await expect(firstCard.locator('.news-read-more')).toContainText('Czytaj więcej');
     await firstCard.locator('.news-read-more').click();
     await expect(page.url()).toContain('/nasze-projekty/');
-    await expect(page.locator('.article-header h1')).toBeVisible();
+    await expect(page.locator('.project-header h1')).toBeVisible();
   });
 
   test('home page - should have working "Zobacz wszystkie projekty" link', async ({ page }) => {
@@ -30,7 +30,7 @@ test.describe('Home Page links', () => {
     await expect(page.locator('.news-link')).toContainText('Zobacz wszystkie projekty →');
     await page.click('.news-link');
     await expect(page).toHaveURL('/nasze-projekty/1');
-    await expect(page.locator('.news-page-header h1')).toContainText('Nasze projekty');
+    await expect(page.locator('.page-header h1')).toContainText('Nasze projekty');
   });
 
   test('home page - should have working email link in footer', async ({ page }) => {

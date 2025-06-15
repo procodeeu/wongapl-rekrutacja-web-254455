@@ -19,3 +19,4 @@ tina/.tina-lock
 
 test-results/
 playwright-report/
+tests/visual.spec.ts-snapshots/

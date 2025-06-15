@@ -3,8 +3,8 @@ import { getCollection } from 'astro:content';
 import Layout from '../../components/Layout.astro';
 
 export async function getStaticPaths() {
-  const newsEntries = await getCollection('ourProjects');
-  return newsEntries.map((entry) => ({
+  const projectEntries = await getCollection('ourProjects');
+  return projectEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
   }));
@@ -23,40 +23,41 @@ function formatDate(date: Date): string {
 ---
 
 <Layout title={`${entry.data.title} - PROCODE`} description={entry.data.description}>
-  <div class="news-article">
+  <main class="project-article">
     <div class="container">
-      <nav class="breadcrumb">
-        <a href="/">Strona główna</a>
-        <span>→</span>
-        <a href="/nasze-projekty">Nasze projekty</a>
-        <span>→</span>
-        <span>{entry.data.title}</span>
+      <nav class="breadcrumb" aria-label="Nawigacja okruszkami">
+        <ol class="breadcrumb-list">
+          <li><a href="/">Strona główna</a></li>
+          <li><span aria-hidden="true">→</span></li>
+          <li><a href="/nasze-projekty">Nasze projekty</a></li>
+          <li><span aria-hidden="true">→</span></li>
+          <li><span aria-current="page">{entry.data.title}</span></li>
+        </ol>
       </nav>
 
-      <article class="article-content">
-        <header class="article-header">
+      <article class="project-content">
+        <header class="project-header">
           <h1>{entry.data.title}</h1>
-          <time class="article-date">{formatDate(entry.data.date)}</time>
-          {entry.data.description && <p class="article-description">{entry.data.description}</p>}
+          <time class="project-date" datetime={entry.data.date.toISOString()}
+            >{formatDate(entry.data.date)}</time
+          >
+          {entry.data.description && <p class="project-description">{entry.data.description}</p>}
         </header>
 
-        <div class="article-body">
+        <section class="project-body">
           <Content />
-        </div>
+        </section>
 
-        <footer class="article-footer">
-          <a href="/nasze-projekty" class="back-link">← Powrót do wszystkich projektów</a>
+        <footer class="project-footer">
+          <a href="/nasze-projekty" class="btn btn-secondary">← Powrót do wszystkich projektów</a>
         </footer>
       </article>
     </div>
-  </div>
+  </main>
 </Layout>
 
 <style>
-  .news-article {
-    background: url('/bg.svg') no-repeat center center;
-    background-size: cover;
-    background-color: #1a1f36;
+  .project-article {
     min-height: 100vh;
     padding: 4rem 0;
     color: white;
@@ -68,48 +69,61 @@ function formatDate(date: Date): string {
     color: #e5e7eb;
   }
 
+  .breadcrumb-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb-list li {
+    display: flex;
+    align-items: center;
+  }
+
   .breadcrumb a {
     color: #10b981;
     text-decoration: none;
     font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s ease;
   }
 
   .breadcrumb a:hover {
-    color: #fbbf24;
+    border-bottom-color: #10b981;
   }
 
   .breadcrumb span {
     margin: 0 0.5rem;
-    color: #7dd3fc;
+    color: #22ffb5;
   }
 
-  .article-content {
-    background: rgba(26, 31, 54, 0.9);
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
+  .project-content {
   }
 
-  .article-header {
+  .project-header {
     padding: 3rem 3rem 2rem;
   }
 
-  .article-header h1 {
+  .project-header h1 {
     margin: 0 0 1rem 0;
-    color: #fbbf24;
+    color: #b8ff0b;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 700;
   }
 
-  .article-date {
-    color: #7dd3fc;
+  .project-date {
+    color: #22ffb5;
     font-size: 0.9rem;
     display: block;
     margin-bottom: 1rem;
     font-weight: 500;
   }
 
-  .article-description {
+  .project-description {
     color: #e5e7eb;
     font-size: 1.125rem;
     line-height: 1.6;
@@ -117,55 +131,55 @@ function formatDate(date: Date): string {
     font-style: italic;
   }
 
-  .article-body {
+  .project-body {
     padding: 2rem 3rem;
     line-height: 1.7;
   }
 
-  .article-body h1,
-  .article-body h2,
-  .article-body h3 {
-    color: #fbbf24;
+  .project-body h1,
+  .project-body h2,
+  .project-body h3 {
+    color: #b8ff0b;
     margin: 2rem 0 1rem 0;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
 
-  .article-body h1 {
+  .project-body h1 {
     font-size: 1.875rem;
   }
 
-  .article-body h2 {
+  .project-body h2 {
     font-size: 1.5rem;
   }
 
-  .article-body h3 {
+  .project-body h3 {
     font-size: 1.25rem;
   }
 
-  .article-body p {
+  .project-body p {
     margin-bottom: 1.5rem;
     color: #e5e7eb;
   }
 
-  .article-body ul,
-  .article-body ol {
+  .project-body ul,
+  .project-body ol {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
   }
 
-  .article-body li {
+  .project-body li {
     margin-bottom: 0.5rem;
     color: #e5e7eb;
   }
 
-  .article-body strong {
-    color: #fbbf24;
+  .project-body strong {
+    color: #22ffb5;
     font-weight: 700;
   }
 
-  .article-body code {
+  .project-body code {
     background: rgba(16, 185, 129, 0.2);
     color: #10b981;
     padding: 0.25rem 0.5rem;
@@ -174,7 +188,7 @@ function formatDate(date: Date): string {
     font-size: 0.9rem;
   }
 
-  .article-body pre {
+  .project-body pre {
     background: #0f172a;
     color: #e5e7eb;
     padding: 1.5rem;
@@ -183,69 +197,73 @@ function formatDate(date: Date): string {
     margin: 1.5rem 0;
   }
 
-  .article-body blockquote {
-    border-left: 4px solid #fbbf24;
+  .project-body blockquote {
+    border-left: 4px solid #22ffb5;
     padding-left: 1.5rem;
     margin: 1.5rem 0;
     font-style: italic;
-    color: #7dd3fc;
-    background: rgba(251, 191, 36, 0.1);
+    color: #22ffb5;
+    background: rgba(34, 255, 181, 0.1);
     padding: 1rem 1.5rem;
     border-radius: 4px;
   }
 
-  .article-footer {
+  .project-footer {
     padding: 2rem 3rem 3rem;
   }
 
-  .back-link {
-    background: #10b981;
-    color: #1a1f36;
+  .btn-secondary {
+    background: #b8ff0b;
+    color: #000025;
     padding: 0.75rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 0;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 0.788rem;
     letter-spacing: 0.5px;
     transition: all 0.2s ease;
     display: inline-block;
   }
 
-  .back-link:hover {
-    background: #fbbf24;
-    transform: translateY(-1px);
+  .btn-secondary:hover {
+    background: #a0dc0a;
   }
 
   @media (max-width: 768px) {
-    .news-article {
+    .project-article {
       padding: 2rem 0;
     }
 
-    .article-header,
-    .article-body,
-    .article-footer {
+    .project-header,
+    .project-body,
+    .project-footer {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
 
-    .article-header {
+    .project-header {
       padding-top: 2rem;
       padding-bottom: 1.5rem;
     }
 
-    .article-body {
+    .project-body {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
     }
 
-    .article-footer {
+    .project-footer {
       padding-top: 1.5rem;
       padding-bottom: 2rem;
     }
 
     .breadcrumb {
       padding: 0 1rem;
+    }
+
+    .breadcrumb-list {
+      flex-wrap: wrap;
+      gap: 0.25rem;
     }
   }
 </style>
