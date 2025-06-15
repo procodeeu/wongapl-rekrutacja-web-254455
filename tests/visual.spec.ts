@@ -17,9 +17,9 @@ test.describe('Visual Regression tests', () => {
 
   test('project detail page should look correct', async ({ page }) => {
     await page.goto('/nasze-projekty/1');
-    const firstProjectLink = page.locator('.news-item h2 a').first();
+    const firstProjectLink = page.locator('.project-card h2 a').first();
     await firstProjectLink.click();
-    await expect(page.locator('.article-header h1')).toBeVisible();
+    await expect(page.locator('.project-header h1')).toBeVisible();
     await expect(page).toHaveScreenshot('project-detail.png', {
       fullPage: true,
     });

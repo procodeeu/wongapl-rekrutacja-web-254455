@@ -3,25 +3,24 @@ import { getCollection } from 'astro:content';
 import Layout from '../../components/Layout.astro';
 
 export async function getStaticPaths() {
-  const allNews = await getCollection('ourProjects');
-  const publishedNews = allNews.filter((news) => news.data.published);
-
   const ITEMS_PER_PAGE = 3;
-  const totalPages = Math.ceil(publishedNews.length / ITEMS_PER_PAGE);
+  const allProjects = await getCollection('ourProjects');
+  const publishedProjects = allProjects.filter((project) => project.data.published);
+  const totalPages = Math.ceil(publishedProjects.length / ITEMS_PER_PAGE);
 
   return Array.from({ length: totalPages }, (_, i) => ({
     params: { page: String(i + 1) },
   }));
 }
 
-const allNews = await getCollection('ourProjects');
-const publishedNews = allNews
-  .filter((news) => news.data.published)
+const ITEMS_PER_PAGE = 3;
+const allProjects = await getCollection('ourProjects');
+const publishedProjects = allProjects
+  .filter((project) => project.data.published)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
-const ITEMS_PER_PAGE = 3;
 const currentPage = Number(Astro.params.page) || 1;
-const totalPages = Math.ceil(publishedNews.length / ITEMS_PER_PAGE);
+const totalPages = Math.ceil(publishedProjects.length / ITEMS_PER_PAGE);
 
 if (currentPage < 1 || currentPage > totalPages) {
   return Astro.redirect('/nasze-projekty/1');
@@ -29,7 +28,7 @@ if (currentPage < 1 || currentPage > totalPages) {
 
 const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
 const endIndex = startIndex + ITEMS_PER_PAGE;
-const paginatedNews = publishedNews.slice(startIndex, endIndex);
+const paginatedProjects = publishedProjects.slice(startIndex, endIndex);
 
 function formatDate(date: Date): string {
   return date.toLocaleDateString('pl-PL', {
@@ -44,57 +43,65 @@ function formatDate(date: Date): string {
   title="Nasze projekty - PROCODE"
   description="Zobacz wszystkie nasze zrealizowane projekty i case studies."
 >
-  <div class="news-page">
+  <main class="projects-page">
     <div class="container">
-      <header class="news-page-header">
+      <header class="page-header">
         <h1>Nasze projekty</h1>
         <p>Poznaj nasze zrealizowane projekty i case studies</p>
       </header>
 
-      <div class="news-list">
+      <section class="projects-list" aria-label="Lista projektów">
         {
-          paginatedNews.map((newsItem) => (
-            <article class="news-item">
-              <div class="news-item-content">
+          paginatedProjects.map((project) => (
+            <article class="project-card">
+              <header class="project-header">
                 <h2>
-                  <a href={`/nasze-projekty/${newsItem.slug}`}>{newsItem.data.title}</a>
+                  <a href={`/nasze-projekty/${project.slug}`} class="project-title-link">
+                    {project.data.title}
+                  </a>
                 </h2>
-                <time class="news-item-date">{formatDate(newsItem.data.date)}</time>
-                <p class="news-item-description">{newsItem.data.description}</p>
-                <a href={`/nasze-projekty/${newsItem.slug}`} class="read-more-btn">
+                <time class="project-date" datetime={project.data.date.toISOString()}>
+                  {formatDate(project.data.date)}
+                </time>
+              </header>
+              <p class="project-description">{project.data.description}</p>
+              <footer class="project-footer">
+                <a href={`/nasze-projekty/${project.slug}`} class="btn btn-primary">
                   Czytaj więcej
                 </a>
-              </div>
+              </footer>
             </article>
           ))
         }
-      </div>
+      </section>
 
       {
         totalPages > 1 && (
           <nav class="pagination" aria-label="Paginacja projektów">
             {currentPage > 1 && (
-              <a href={`/nasze-projekty/${currentPage - 1}`} class="pagination-link">
+              <a href={`/nasze-projekty/${currentPage - 1}`} class="pagination-link" rel="prev">
                 ← Poprzednia strona
               </a>
             )}
 
-            <div class="pagination-numbers">
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) =>
-                page === currentPage ? (
-                  <span class="pagination-current" aria-current="page">
-                    {page}
-                  </span>
-                ) : (
-                  <a href={`/nasze-projekty/${page}`} class="pagination-link pagination-number">
-                    {page}
-                  </a>
-                ),
-              )}
-            </div>
+            <ol class="pagination-numbers">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <li>
+                  {page === currentPage ? (
+                    <span class="pagination-current" aria-current="page">
+                      {page}
+                    </span>
+                  ) : (
+                    <a href={`/nasze-projekty/${page}`} class="pagination-link pagination-number">
+                      {page}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ol>
 
             {currentPage < totalPages && (
-              <a href={`/nasze-projekty/${currentPage + 1}`} class="pagination-link">
+              <a href={`/nasze-projekty/${currentPage + 1}`} class="pagination-link" rel="next">
                 Następna strona →
               </a>
             )}
@@ -103,67 +110,61 @@ function formatDate(date: Date): string {
       }
 
       {
-        paginatedNews.length === 0 && (
+        paginatedProjects.length === 0 && (
           <div class="no-news">
             <p>Brak projektów do wyświetlenia.</p>
           </div>
         )
       }
     </div>
-  </div>
+  </main>
 </Layout>
 
 <style>
-  .news-page {
-    background: url('/bg.svg') no-repeat center center;
-    background-size: cover;
-    background-color: #1a1f36;
+  .projects-page {
     min-height: 100vh;
     padding: 4rem 0;
     color: white;
   }
 
-  .news-page-header {
+  .page-header {
     text-align: center;
     margin-bottom: 4rem;
   }
 
-  .news-page-header h1 {
-    color: #fbbf24;
+  .page-header h1 {
+    color: #b8ff0b;
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
   }
 
-  .news-page-header p {
+  .page-header p {
     color: #e5e7eb;
     font-size: 1.125rem;
   }
 
-  .news-list {
+  .projects-list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 4rem;
   }
 
-  .news-item {
-    background: rgba(26, 31, 54, 0.9);
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
+  .project-card {
   }
 
-  .news-item-content {
+  .project-header {
     padding: 2rem;
   }
 
-  .news-item h2 {
+  .project-card h2 {
     margin: 0 0 0.75rem 0;
   }
 
-  .news-item h2 a {
-    color: #fbbf24;
+  .project-title-link {
+    color: #b8ff0b;
     text-decoration: none;
     transition: color 0.2s ease;
     font-weight: 700;
@@ -171,41 +172,45 @@ function formatDate(date: Date): string {
     letter-spacing: 0.5px;
   }
 
-  .news-item h2 a:hover {
+  .project-title-link:hover {
     color: #10b981;
   }
 
-  .news-item-date {
-    color: #7dd3fc;
+  .project-date {
+    color: #22ffb5;
     font-size: 0.875rem;
     display: block;
     margin-bottom: 1rem;
     font-weight: 500;
   }
 
-  .news-item-description {
+  .project-description {
     color: #e5e7eb;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+    padding: 0 2rem;
   }
 
-  .read-more-btn {
-    background: #10b981;
-    color: #1a1f36;
+  .project-footer {
+    padding: 0 2rem 2rem;
+  }
+
+  .btn {
+    background: #b8ff0b;
+    color: #000025;
     padding: 0.75rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 0;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 0.788rem;
     letter-spacing: 0.5px;
     transition: all 0.2s ease;
     display: inline-block;
   }
 
-  .read-more-btn:hover {
-    background: #fbbf24;
-    transform: translateY(-1px);
+  .btn:hover {
+    background: #a0dc0a;
   }
 
   .pagination {
@@ -219,6 +224,9 @@ function formatDate(date: Date): string {
   .pagination-numbers {
     display: flex;
     gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .pagination-link,
@@ -240,14 +248,14 @@ function formatDate(date: Date): string {
 
   .pagination-link:hover {
     background: #10b981;
-    color: #1a1f36;
+    color: #000025;
     transform: translateY(-1px);
   }
 
   .pagination-current {
-    background: #fbbf24;
-    color: #1a1f36;
-    border-color: #fbbf24;
+    background: #22ffb5;
+    color: #000025;
+    border-color: #22ffb5;
   }
 
   .no-news {
@@ -257,16 +265,21 @@ function formatDate(date: Date): string {
   }
 
   @media (max-width: 768px) {
-    .news-page {
+    .projects-page {
       padding: 2rem 0;
     }
 
-    .news-page-header {
+    .page-header {
       margin-bottom: 3rem;
     }
 
-    .news-item-content {
+    .project-header,
+    .project-footer {
       padding: 1.5rem;
+    }
+
+    .project-description {
+      padding: 0 1.5rem;
     }
 
     .pagination {
