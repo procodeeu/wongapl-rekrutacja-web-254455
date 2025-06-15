@@ -60,11 +60,11 @@ function formatDate(date: Date): string {
                     {project.data.title}
                   </a>
                 </h2>
-                <time class="project-date" datetime={project.data.date.toISOString()}>
+                <time class="project-date text-meta" datetime={project.data.date.toISOString()}>
                   {formatDate(project.data.date)}
                 </time>
               </header>
-              <p class="project-description">{project.data.description}</p>
+              <p class="project-description text-description">{project.data.description}</p>
               <footer class="project-footer">
                 <a href={`/nasze-projekty/${project.slug}`} class="btn btn-primary">
                   Czytaj więcej
@@ -177,40 +177,17 @@ function formatDate(date: Date): string {
   }
 
   .project-date {
-    color: var(--accent-green);
-    font-size: 0.875rem;
     display: block;
     margin-bottom: 1rem;
-    font-weight: 500;
   }
 
   .project-description {
-    color: var(--text-light);
-    line-height: 1.6;
     margin-bottom: 1.5rem;
     padding: 0 2rem;
   }
 
   .project-footer {
     padding: 0 2rem 2rem;
-  }
-
-  .btn {
-    background: var(--lime-green);
-    color: var(--dark-blue);
-    padding: 0.75rem 1.5rem;
-    border-radius: 0;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.788rem;
-    letter-spacing: 0.5px;
-    transition: all 0.2s ease;
-    display: inline-block;
-  }
-
-  .btn:hover {
-    background: var(--lime-green-hover);
   }
 
   .pagination {

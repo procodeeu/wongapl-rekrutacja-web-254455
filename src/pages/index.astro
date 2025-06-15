@@ -34,7 +34,7 @@ const latestNews = allNews
     <div class="container">
       <div class="news-header green half-width-header">
         <h2>Nasze najnowsze projekty</h2>
-        <a href="/nasze-projekty" class="news-link">Zobacz wszystkie projekty →</a>
+        <a href="/nasze-projekty" class="btn">Zobacz wszystkie projekty →</a>
       </div>
       <div class="news-grid">
         {
@@ -43,8 +43,8 @@ const latestNews = allNews
               <a href={`/nasze-projekty/${newsItem.slug}`} class="news-title-link">
                 <h3>{newsItem.data.title}</h3>
               </a>
-              <time class="news-date">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
-              <p class="news-description">{newsItem.data.description}</p>
+              <time class="news-date text-meta">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
+              <p class="news-description text-description">{newsItem.data.description}</p>
               <a href={`/nasze-projekty/${newsItem.slug}`} class="news-read-more">
                 Czytaj więcej
               </a>
@@ -251,22 +251,6 @@ const latestNews = allNews
     border-bottom: 25px solid transparent;
   }
 
-  .news-link {
-    background: var(--lime-green);
-    color: var(--dark-blue);
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 0;
-    transition: all 0.2s ease;
-    font-size: 0.788rem;
-    text-transform: uppercase;
-  }
-
-  .news-link:hover {
-    background: var(--lime-green-hover);
-  }
-
   .news-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -333,17 +317,12 @@ const latestNews = allNews
   }
 
   .news-date {
-    color: var(--accent-green);
-    font-size: 0.875rem;
     display: block;
     margin-bottom: 1rem;
-    font-weight: 500;
   }
 
   .news-description {
-    color: var(--text-light);
     margin-bottom: 1.5rem;
-    line-height: 1.6;
   }
 
   .news-read-more {

@@ -38,10 +38,10 @@ function formatDate(date: Date): string {
       <article class="project-content">
         <header class="project-header">
           <h1>{entry.data.title}</h1>
-          <time class="project-date" datetime={entry.data.date.toISOString()}
+          <time class="project-date text-meta" datetime={entry.data.date.toISOString()}
             >{formatDate(entry.data.date)}</time
           >
-          {entry.data.description && <p class="project-description">{entry.data.description}</p>}
+          {entry.data.description && <p class="project-description text-description">{entry.data.description}</p>}
         </header>
 
         <section class="project-body">
@@ -113,17 +113,13 @@ function formatDate(date: Date): string {
   }
 
   .project-date {
-    color: var(--accent-green);
     font-size: 0.9rem;
     display: block;
     margin-bottom: 1rem;
-    font-weight: 500;
   }
 
   .project-description {
-    color: var(--text-light);
     font-size: 1.125rem;
-    line-height: 1.6;
     margin: 0;
     font-style: italic;
   }
@@ -185,46 +181,8 @@ function formatDate(date: Date): string {
     font-size: 0.9rem;
   }
 
-  .project-body pre {
-    background: #0f172a;
-    color: var(--text-light);
-    padding: 1.5rem;
-    border-radius: 8px;
-    overflow-x: auto;
-    margin: 1.5rem 0;
-  }
-
-  .project-body blockquote {
-    border-left: 4px solid var(--accent-green);
-    padding-left: 1.5rem;
-    margin: 1.5rem 0;
-    font-style: italic;
-    color: var(--accent-green);
-    background: rgba(34, 255, 181, 0.1);
-    padding: 1rem 1.5rem;
-    border-radius: 4px;
-  }
-
   .project-footer {
     padding: 2rem 3rem 3rem;
-  }
-
-  .btn-secondary {
-    background: var(--lime-green);
-    color: var(--dark-blue);
-    padding: 0.75rem 1.5rem;
-    border-radius: 0;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.788rem;
-    letter-spacing: 0.5px;
-    transition: all 0.2s ease;
-    display: inline-block;
-  }
-
-  .btn-secondary:hover {
-    background: var(--lime-green-hover);
   }
 
   @media (max-width: 768px) {

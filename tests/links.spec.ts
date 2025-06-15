@@ -27,8 +27,8 @@ test.describe('Home Page links', () => {
 
   test('home page - should have working "Zobacz wszystkie projekty" link', async ({ page }) => {
     await page.goto('/');
-    await expect(page.locator('.news-link')).toContainText('Zobacz wszystkie projekty →');
-    await page.click('.news-link');
+    await expect(page.locator('.btn')).toContainText('Zobacz wszystkie projekty →');
+    await page.click('.btn');
     await expect(page).toHaveURL('/nasze-projekty/1');
     await expect(page.locator('.page-header h1')).toContainText('Nasze projekty');
   });
