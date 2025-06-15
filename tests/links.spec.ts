@@ -32,4 +32,11 @@ test.describe('Home Page links', () => {
     await expect(page).toHaveURL('/nasze-projekty/1');
     await expect(page.locator('.news-page-header h1')).toContainText('Nasze projekty');
   });
+
+  test('home page - should have working email link in footer', async ({ page }) => {
+    await page.goto('/');
+    const emailLink = page.locator('.footer-text a[href="mailto:procodeoffice@gmail.com"]');
+    await expect(emailLink).toBeVisible();
+    await expect(emailLink).toHaveAttribute('href', 'mailto:procodeoffice@gmail.com');
+  });
 });

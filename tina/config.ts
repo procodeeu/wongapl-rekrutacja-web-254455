@@ -117,6 +117,12 @@ export default defineConfig({
             name: 'content',
             label: 'Treść',
             required: true,
+            parser: {
+              type: 'markdown',
+            },
+            overrides: {
+              toolbar: ['bold', 'italic', 'link'],
+            },
           },
         ],
       },

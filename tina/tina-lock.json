@@ -137,10 +137,10 @@
             "name": "content",
             "label": "Treść",
             "required": true,
-            "namespace": ["footer_text", "content"],
-            "searchable": true,
             "parser": { "type": "markdown" },
-            "uid": false
+            "overrides": { "toolbar": ["bold", "italic", "link"] },
+            "namespace": ["footer_text", "content"],
+            "searchable": true
           }
         ],
         "namespace": ["footer_text"]
