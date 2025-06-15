@@ -48,4 +48,4 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git add tests/visual.spec.ts-snapshots/
           git diff --quiet tests/visual.spec.ts-snapshots/ || git commit -m "Update visual regression tests snapshots"
-          git push
+          git push origin HEAD:${{ github.ref_name }}
