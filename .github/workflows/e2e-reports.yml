@@ -24,3 +24,12 @@ jobs:
         with:
           name: test-report
           path: playwright-report/
+
+      - name: Deploy report to Cloudflare
+        if: github.ref == 'refs/heads/main'
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: procodeeu-wongapl-rekrutacja-web-254455-e2e
+          directory: playwright-report
