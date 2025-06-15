@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 
 export interface Props {
   title: string;
@@ -12,7 +13,8 @@ const footerLinksData = await getCollection('footer-links');
 const footerTextData = await getCollection('footer-text');
 
 const footerLinks = footerLinksData[0]?.data.links || [];
-const footerText = footerTextData[0]?.data.content || '2025 PROCODE';
+const footerTextContent = footerTextData[0]?.data.content || '2025 PROCODE';
+const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerTextContent) : '';
 ---
 
 <!doctype html>
@@ -69,9 +71,7 @@ const footerText = footerTextData[0]?.data.content || '2025 PROCODE';
                 ))
               }
             </div>
-            <div class="footer-text">
-              <p set:html={footerText} />
-            </div>
+            <div class="footer-text" set:html={footerTextHtml}></div>
           </div>
         </div>
       </footer>
@@ -218,6 +218,25 @@ const footerText = footerTextData[0]?.data.content || '2025 PROCODE';
     font-size: 0.85rem;
     margin: 0;
     line-height: 1.5;
+  }
+
+  .footer-text strong {
+    color: #10b981;
+    font-weight: 700;
+  }
+
+  .footer-text em {
+    color: #fbbf24;
+    font-style: italic;
+  }
+
+  .footer-text a {
+    color: #e5e7eb;
+    text-decoration: underline;
+  }
+
+  .footer-text a:hover {
+    color: #10b981;
   }
 
   h1 {
