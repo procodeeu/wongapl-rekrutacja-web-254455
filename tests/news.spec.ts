@@ -4,8 +4,8 @@ test.describe('Pagination in "Nasze ostatnie projekty"', () => {
   test('should display news listing with pagination info', async ({ page }) => {
     await page.goto('/nasze-projekty/1');
 
-    const newsItems = page.locator('.news-item');
-    const itemCount = await newsItems.count();
+    const projectItems = page.locator('.project-card');
+    const itemCount = await projectItems.count();
     expect(itemCount).toBeGreaterThan(0);
     expect(itemCount).toBeLessThanOrEqual(3);
   });
@@ -13,27 +13,27 @@ test.describe('Pagination in "Nasze ostatnie projekty"', () => {
   test('should redirect to page 1 when accessing base URL', async ({ page }) => {
     await page.goto('/nasze-projekty');
     await expect(page).toHaveURL('/nasze-projekty/1');
-    const newsItems = page.locator('.news-item');
-    const itemCount = await newsItems.count();
+    const projectItems = page.locator('.project-card');
+    const itemCount = await projectItems.count();
     expect(itemCount).toBeGreaterThan(0);
     expect(itemCount).toBeLessThanOrEqual(3);
   });
 
   test('should navigate to individual article and back', async ({ page }) => {
     await page.goto('/nasze-projekty/1');
-    const firstNewsLink = page.locator('.news-item h2 a').first();
-    await firstNewsLink.click();
+    const firstProjectLink = page.locator('.project-card h2 a').first();
+    await firstProjectLink.click();
     await expect(page.url()).toContain('/nasze-projekty/');
-    await expect(page.locator('.article-header h1')).toBeVisible();
-    await expect(page.locator('.back-link')).toContainText('Powrót do wszystkich projektów');
-    await page.click('.back-link');
+    await expect(page.locator('.project-header h1')).toBeVisible();
+    await expect(page.locator('.btn-secondary')).toContainText('Powrót do wszystkich projektów');
+    await page.click('.btn-secondary');
     await expect(page).toHaveURL('/nasze-projekty/1');
   });
 
   test('should display pagination when multiple pages exist', async ({ page }) => {
     await page.goto('/nasze-projekty/1');
-    const newsItems = page.locator('.news-item');
-    const itemCount = await newsItems.count();
+    const projectItems = page.locator('.project-card');
+    const itemCount = await projectItems.count();
 
     if (itemCount === 3) {
       const pagination = page.locator('.pagination');
@@ -65,15 +65,15 @@ test.describe('Pagination in "Nasze ostatnie projekty"', () => {
 
   test('should display correct items per page', async ({ page }) => {
     await page.goto('/nasze-projekty/1');
-    const newsItems = page.locator('.news-item');
-    const itemCount = await newsItems.count();
+    const projectItems = page.locator('.project-card');
+    const itemCount = await projectItems.count();
     expect(itemCount).toBeLessThanOrEqual(3);
     expect(itemCount).toBeGreaterThan(0);
     for (let i = 0; i < itemCount; i++) {
-      const item = newsItems.nth(i);
+      const item = projectItems.nth(i);
       await expect(item.locator('h2 a')).toBeVisible();
-      await expect(item.locator('.news-item-date')).toBeVisible();
-      await expect(item.locator('.read-more-btn')).toBeVisible();
+      await expect(item.locator('.project-date')).toBeVisible();
+      await expect(item.locator('.btn')).toBeVisible();
     }
   });
 });
