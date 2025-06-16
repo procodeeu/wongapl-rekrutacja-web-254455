@@ -1,6 +1,6 @@
 # WONGA.PL - Rekrutacja Front-end dev
 
-Projekt rekrutacyjny - strona firmowa z sekcją Nasze ostatnie projekty.
+Projekt rekrutacyjny - strona firmowa z sekcją "Nasze ostatnie projekty".
 
 ## Uruchomienie
 
