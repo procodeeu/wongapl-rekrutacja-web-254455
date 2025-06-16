@@ -9,11 +9,6 @@ npm install
 npm run dev          # Development server z TinaCMS
 npm run build:tina   # Production build
 npm run preview      # Preview build
-```
-
-## Testy
-
-```bash
 npm run test         # Playwright tests
 ```
 
