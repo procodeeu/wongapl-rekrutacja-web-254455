@@ -41,18 +41,3 @@ jobs:
       - name: Run tests (in push - include visual)
         if: github.event_name == 'push'
         run: npm run test || true
-
-      - name: Update snapshots
-        if: failure()
-        run: |
-          npx playwright install --with-deps
-          npx playwright test --update-snapshots
-
-      - name: Commit snapshots
-        if: failure()
-        run: |
-          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-          git config --local user.name "${{ github.actor }}"
-          git add tests/visual.spec.ts-snapshots/
-          git diff --quiet tests/visual.spec.ts-snapshots/ || git commit -m "Update visual regression tests snapshots"
-          git push origin HEAD:${{ github.ref_name }}
