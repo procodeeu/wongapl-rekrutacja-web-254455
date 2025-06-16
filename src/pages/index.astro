@@ -43,7 +43,9 @@ const latestNews = allNews
               <a href={`/nasze-projekty/${newsItem.slug}`} class="news-title-link">
                 <h3>{newsItem.data.title}</h3>
               </a>
-              <time class="news-date text-meta">{newsItem.data.date.toLocaleDateString('pl-PL')}</time>
+              <time class="news-date text-meta">
+                {newsItem.data.date.toLocaleDateString('pl-PL')}
+              </time>
               <p class="news-description text-description">{newsItem.data.description}</p>
               <a href={`/nasze-projekty/${newsItem.slug}`} class="news-read-more">
                 Czytaj więcej
