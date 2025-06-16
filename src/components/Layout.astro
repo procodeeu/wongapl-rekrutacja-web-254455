@@ -32,7 +32,10 @@ const footerTextHtml = typeof footerTextContent === 'string' ? marked(footerText
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <link rel="preload" as="image" href="/pexels-goumbik-574069.webp" />
   </head>
   <body>
     <div class="page-wrapper">
