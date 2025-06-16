@@ -1,7 +1,7 @@
 name: E2E Tests
 
 on:
-  push:
+  pull_request:
     branches: [main]
 
 jobs:
@@ -26,10 +26,23 @@ jobs:
           path: playwright-report/
 
       - name: Deploy report to Cloudflare
-        if: github.ref == 'refs/heads/main'
+        if: always()
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: procodeeu-wongapl-rekrutacja-web-254455-e2e
           directory: playwright-report
+
+      - name: Comment PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const reportUrl = 'https://procodeeu-wongapl-rekrutacja-web-254455-e2e.pages.dev';
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `##  E2E Test Report\n\n **Test Report**: ${reportUrl}\n\n${process.env.TEST_RESULT || 'Tests completed'}`
+            });
