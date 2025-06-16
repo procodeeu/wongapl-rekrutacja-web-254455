@@ -41,7 +41,11 @@ function formatDate(date: Date): string {
           <time class="project-date text-meta" datetime={entry.data.date.toISOString()}
             >{formatDate(entry.data.date)}</time
           >
-          {entry.data.description && <p class="project-description text-description">{entry.data.description}</p>}
+          {
+            entry.data.description && (
+              <p class="project-description text-description">{entry.data.description}</p>
+            )
+          }
         </header>
 
         <section class="project-body">
